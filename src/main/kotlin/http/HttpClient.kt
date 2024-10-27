@@ -12,23 +12,25 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
 
     private val logger = LoggerFactory.getLogger(HttpClient::class.java)
     private val httpClientTMDB = HttpClient.newHttpClient()
-    fun request(url:String,requestType: RequestType) : String? {
-        val bearerToken = tmdbConfig.token
-        var requestUrl = url
-        logger.info("requestUrl:$requestUrl")
-        if (!url.contains("api_key")){
-            requestUrl = requestUrl + "?api_key=" + tmdbConfig.apiKey
-        }
-        if (!url.contains("language")) {
-            requestUrl = requestUrl + "&language=" + tmdbConfig.language
-        }
-        requestUrl = tmdbConfig.baseUrl + requestUrl
+
+    fun request(url:UrlBuilder ,requestType: RequestType) :String? {
+        val ( _, apiKey:String, _ ,language:String) = tmdbConfig
+        url.addParam("api_key", apiKey)
+        url.addParam("language", language)
+        logger.info("url:$url")
+        return request(url.build(),requestType)
+    }
+
+
+    private fun request(url:String, requestType: RequestType) : String? {
+        val (baseUrl : String, _ ,token : String, _ ) = tmdbConfig
+        val requestUrl = baseUrl + url
         val uri = URI.create(requestUrl)
         logger.info("requestUrl:$uri")
         val httpRequestBuilder = HttpRequest
             .newBuilder()
             .uri(uri)
-            .header("Authorization", "Bearer $bearerToken")
+            .header("Authorization", "Bearer $token")
             .header("Content-Type", "application/json")
             .header("Accept", "application/json")
         when (requestType) {

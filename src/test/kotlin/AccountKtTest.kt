@@ -2,6 +2,7 @@ import entity.account.AccountDetails
 import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
+import org.lhq.entity.account.FavoriteResult
 import org.slf4j.LoggerFactory
 import utlis.ReadFile
 import kotlin.test.Test
@@ -14,7 +15,7 @@ class AccountKtTest {
 
     @Test
     @DisplayName("get_account_details")
-    fun getAccountDetails() {
+    fun getAccountDetailsTest() {
         val  readFile = ReadFile();
         val configStr = readFile.readJsonFileAsString("config.json")
         val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
@@ -29,5 +30,23 @@ class AccountKtTest {
          * message：可选参数，测试失败时显示的错误消息。
          */
         assertEquals(expectedDetails,actualDetails,"accountApi.getDetails 请求结果与预期不一致")
+    }
+
+
+    @Test
+    @DisplayName("get_favorite_movies")
+    fun getFavoriteMoviesTest(){
+        val  readFile = ReadFile();
+        System.setProperty("java.net.useSystemProxies", "true");
+        val configStr = readFile.readJsonFileAsString("config.json")
+        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
+        val favoriteMovies = TmdbApi(tmdbConfig).getAccountApi()
+            .getFavoriteMovies(
+                20874374,
+                1,
+                "created_at.desc")
+        logger.info("favoriteMovies:{}",favoriteMovies)
+        val expectedFavorite  = readFile.readEntity<FavoriteResult>("api_test_result/account/favorite_movies.json")
+        assertEquals(expectedFavorite,favoriteMovies,"TmdbApi.getFovriteMovies 请求结果与预期不一致")
     }
 }
