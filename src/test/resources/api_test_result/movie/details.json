@@ -1,0 +1,72 @@
+{
+  "adult": false,
+  "backdrop_path": "/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+  "belongs_to_collection": {
+    "id": 10,
+    "name": "星球大战（系列）",
+    "poster_path": "/gfHJ2GJm44ZY2CO2MaBFYZEjmhy.jpg",
+    "backdrop_path": "/zZDkgOmFMVYpGAkR9Tkxw0CRnxX.jpg"
+  },
+  "budget": 11000000,
+  "genres": [
+    {
+      "id": 12,
+      "name": "冒险"
+    },
+    {
+      "id": 28,
+      "name": "动作"
+    },
+    {
+      "id": 878,
+      "name": "科幻"
+    }
+  ],
+  "homepage": "",
+  "id": 11,
+  "imdb_id": "tt0076759",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "Star Wars",
+  "overview": "邪恶的银河帝国控制了整个银河系，各星系居民饱受暴政之苦，反叛军仍旧坚持不懈地与之对抗。奥尔德兰行星的莱娅公主（凯莉·费舍尔 饰）得到情报人员窃取的帝国秘密武器——死星设计图，却在达斯·维德（大卫·普劳斯 饰）的穷追下被俘，但她已把数据输入机器人 R2-D2 的计算机中。机器人 R2-D2 和 C-3PO 逃亡到一个遥远的星球塔图因。年轻人卢克（马克·哈米尔 饰）发现了 R2-D2 中的求救信息，并找到在反抗帝国的战斗中幸存的绝地武士欧比旺·克诺比（亚历克·吉尼斯 饰）。他们一行在走私船长汉·索罗（哈里森·福特 饰）的帮助下，营救出了公主。卢克在克诺比所教给他的“原力”的帮助下，摧毁了死星。经过战斗的洗礼，卢克成为一名出色的自由战士。",
+  "popularity": 109.482,
+  "poster_path": "/19RHmczYAPsvYw4OlLf0ZiV1IJM.jpg",
+  "production_companies": [
+    {
+      "id": 1,
+      "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+      "name": "Lucasfilm Ltd.",
+      "origin_country": "US"
+    },
+    {
+      "id": 25,
+      "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+      "name": "20th Century Fox",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "1977-05-25",
+  "revenue": 775398007,
+  "runtime": 121,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "很久很久以前，在遥远的银河系……",
+  "title": "星球大战4：新希望",
+  "video": false,
+  "vote_average": 8.2,
+  "vote_count": 20498
+}

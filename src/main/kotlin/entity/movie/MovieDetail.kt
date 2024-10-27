@@ -2,7 +2,7 @@ package org.lhq.entity.movie
 
 import com.google.gson.annotations.SerializedName
 
-data class Movie(
+data class MovieDetail(
     // id
     var id: Int,
     // 是否是含有成人内容
@@ -40,6 +40,33 @@ data class Movie(
     var budget: Long?,
     // 流派
     var genres: List<Genre>,
+    // 官网
+    var homepage: String?,
+    // 人气；知名度
+    var popularity: Double?,
+    // 海报
+    @SerializedName("poster_path")
+    var posterPath: String?,
+    // 制作公司
+    @SerializedName("production_companies")
+    var productionCompanies : List<ProductionCompany>?,
+    // 国家
+    @SerializedName("production_countries")
+    var productionCountries: List<ProductionCountry>?,
+    // 收益
+    var revenue: Long?,
+    // 状态
+    var status: String?,
+    // 标签
+    var tagline: String?,
+    // 视频
+    var video:Boolean?,
+    // 评分
+    @SerializedName("vote_average")
+    var voteAverage: Double?,
+    // 评价数量
+    @SerializedName("vote_count")
+    var voteCount: Long
 
 
 )
@@ -71,5 +98,13 @@ data class ProductionCompany(
 data class ProductionCountry(
     @SerializedName("iso_3166_1")
     val iso31661: String,
+    val name: String,
+)
+
+data class SpokenLanguage(
+    @SerializedName("english_name")
+    val englishName: String,
+    @SerializedName("iso_639_1")
+    val iso6391: String,
     val name: String,
 )

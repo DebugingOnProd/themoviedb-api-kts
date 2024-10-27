@@ -1,32 +1,29 @@
-import com.google.gson.Gson
-import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
+import org.lhq.entity.movie.MovieDetail
 import org.slf4j.LoggerFactory
-import java.io.File
+import utlis.ReadFile
+import kotlin.test.assertEquals
 
-class MainKtTest {
+class MovieKtTest {
 
-    private val logger = LoggerFactory.getLogger(MainKtTest::class.java)
+    private val logger = LoggerFactory.getLogger(MovieKtTest::class.java)
 
-
-    private fun readJsonFromFile(filePath:String ) :TmdbConfig{
-        val gson = Gson()
-        val readText = File(filePath).readText()
-        return gson.fromJson(readText, TmdbConfig::class.java)
-    }
 
     @Test
-    @DisplayName("get movie detail")
+    @DisplayName("get_movie_detail")
     fun getMovieDetail() {
-        val tmdbConfig = readJsonFromFile("src/test/resources/config.json")
+        val readFile = ReadFile()
+        val tmdbConfig = readFile.readEntity<TmdbConfig>("config.json")
         System.setProperty("java.net.useSystemProxies", "true");
-        logger.info("tmdbConfig: $tmdbConfig")
+        logger.info("config: $tmdbConfig")
         val movieApi = TmdbApi(tmdbConfig).getMovieApi()
         val movieDetail = movieApi.getDetails(11)
         logger.info("movieDetail: $movieDetail")
-        assertNotNull(movieDetail)
+        val expectedDetails = readFile.readEntity<MovieDetail>("api_test_result/movie/details.json")
+        assertEquals(expectedDetails, movieDetail,"电影请求结果实际值与预期值不相等")
+
     }
 }
