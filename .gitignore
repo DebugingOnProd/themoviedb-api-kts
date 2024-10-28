@@ -46,3 +46,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+
+## 密钥文件
+
+src/test/resourses/config.json
