@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.account.FavoriteResult
+import org.lhq.param.AccountSortBy
 import org.slf4j.LoggerFactory
 import org.lhq.utlis.ReadFile
 import kotlin.test.Test
@@ -46,7 +47,7 @@ class AccountKtTest {
             .getFavoriteMovies(
                 20874374,
                 1,
-                "created_at.desc")
+                AccountSortBy.CREATED_AT_DESC)
         logger.info("favoriteMovies:{}",favoriteMovies)
         val expectedFavorite  = readFile.readEntity<FavoriteResult>("api_test_result/account/favorite_movies.json")
         assertEquals(expectedFavorite,favoriteMovies,"TmdbApi.getFovriteMovies 请求结果与预期不一致")
@@ -59,11 +60,12 @@ class AccountKtTest {
         val  readFile = ReadFile();
         val configStr = readFile.readJsonFileAsString("config.json")
         val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
+        AccountSortBy.CREATED_AT_ASC
         val favoriteTv = TmdbApi(tmdbConfig).getAccountApi()
             .getFavoriteTv(
                 20874374,
                 1,
-                "created_at.desc"
+                AccountSortBy.CREATED_AT_DESC
             )
         val expectedFavorite  = readFile.readEntity<FavoriteResult>("api_test_result/account/favorite_tvs.json")
         logger.info("favoriteTv:{}",favoriteTv)
