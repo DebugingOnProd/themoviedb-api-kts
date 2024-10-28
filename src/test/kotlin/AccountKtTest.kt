@@ -49,4 +49,22 @@ class AccountKtTest {
         val expectedFavorite  = readFile.readEntity<FavoriteResult>("api_test_result/account/favorite_movies.json")
         assertEquals(expectedFavorite,favoriteMovies,"TmdbApi.getFovriteMovies 请求结果与预期不一致")
     }
+
+
+    @Test
+    @DisplayName("get_favorite_tv")
+    fun getFavoriteTvTest(){
+        val  readFile = ReadFile();
+        val configStr = readFile.readJsonFileAsString("config.json")
+        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
+        val favoriteTv = TmdbApi(tmdbConfig).getAccountApi()
+            .getFavoriteTv(
+                20874374,
+                1,
+                "created_at.desc"
+            )
+        val expectedFavorite  = readFile.readEntity<FavoriteResult>("api_test_result/account/favorite_tvs.json")
+        logger.info("favoriteTv:{}",favoriteTv)
+        assertEquals(expectedFavorite,favoriteTv,"TmdbApi.getFovriteTv 请求结果与预期不一致")
+    }
 }

@@ -26,4 +26,12 @@ class AccountApi(private val httpClient: HttpClient) {
         val result = GsonUtils.fromJson<FavoriteResult>(json)
         return result
     }
+
+    fun getFavoriteTv(accountId: Int,page:Int,sortBy:String) : FavoriteResult? {
+        val url = "/3/account/$accountId/favorite/tv"
+        val paramUrl = UrlBuilder(url).addParam("sort_by", sortBy).addParam("page", "$page");
+        val json: String? = httpClient.request(paramUrl, RequestType.GET)
+        val result = GsonUtils.fromJson<FavoriteResult>(json)
+        return result
+    }
 }

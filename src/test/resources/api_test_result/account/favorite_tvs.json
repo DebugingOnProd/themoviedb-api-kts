@@ -1,0 +1,27 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/5Uer2X03ky0U3uCUZSfrPrN4IgT.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 68034,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "大明王朝1566",
+      "overview": "本剧讲述的是嘉靖与海瑞的故事。嘉靖三十九年，贪墨横行、民不聊生。奸臣严嵩党羽密布、权倾朝野，清官海瑞不惧强权，敢于向腐朽封建的皇权发起挑战。皇帝朱厚熜练道修玄二十载，始终把控着大明朝的军政、经济大权。当时的中国经济发达，市井文化也算繁荣，但社会各阶层矛盾突出，国家大面积实施的土地兼并使千百万农民一夜之间失去了赖以生存的土地。严嵩的专权引起了地方各级官员的不满，“倒严”之声喧嚣甚上，从上至下、从里到外，从朝廷到地方官府，到处充斥着尔虞我诈、勾心斗角的血雨腥风。忠臣良将与乱臣贼子纷纷登上了当时的历史舞台。",
+      "popularity": 35.103,
+      "poster_path": "/fxuofjUugGyHpahh1oBo1xSNEw0.jpg",
+      "first_air_date": "2007-01-08",
+      "name": "大明王朝1566",
+      "vote_average": 9.4,
+      "vote_count": 28
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 1
+}

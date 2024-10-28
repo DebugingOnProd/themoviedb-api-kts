@@ -32,7 +32,7 @@ data class Result (
     val title: String,
     val video: Boolean,
     @SerializedName("vote_average")
-    val voteAverage: Long,
+    val voteAverage: Double,
     @SerializedName("vote_count")
     val voteCount: Long
 )
