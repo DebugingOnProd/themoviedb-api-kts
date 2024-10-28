@@ -1,5 +1,5 @@
 package org.lhq.param
 
-interface SortBy {
+fun interface SortBy {
     fun getValue() : String
 }
