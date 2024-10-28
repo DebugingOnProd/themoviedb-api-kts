@@ -1,6 +1,6 @@
 package org.lhq.api
 
-import entity.account.AccountDetails
+import org.lhq.entity.account.AccountDetails
 import org.lhq.entity.account.FavoriteResult
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType

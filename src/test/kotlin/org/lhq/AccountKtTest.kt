@@ -1,10 +1,12 @@
-import entity.account.AccountDetails
+package org.lhq
+
+import org.lhq.entity.account.AccountDetails
 import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.account.FavoriteResult
 import org.slf4j.LoggerFactory
-import utlis.ReadFile
+import org.lhq.utlis.ReadFile
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

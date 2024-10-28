@@ -1,4 +1,4 @@
-package entity.account
+package org.lhq.entity.account
 
 import com.google.gson.annotations.SerializedName
 
@@ -14,7 +14,7 @@ data class AccountDetails(
     val name: String,
     val username: String,
 
-)
+    )
 
 data class Avatar(
     val gravatar: Gravatar,
