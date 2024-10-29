@@ -38,6 +38,8 @@ class MovieApi(private val httpClient: HttpClient){
     /**
      * Get the list of alternative titles for a movie.
      * 获取电影其他名称列表。
+     * @param movieId the movie id
+     * @return AlternativeTitle
      */
 
     fun getAlternativeTitles(movieId:Int) : AlternativeTitle?{
