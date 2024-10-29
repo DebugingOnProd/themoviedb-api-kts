@@ -1,0 +1,405 @@
+{
+  "id": 11,
+  "titles": [
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars: Episode IV – A New Hope",
+      "type": "modern title"
+    },
+    {
+      "iso_3166_1": "IT",
+      "title": "Guerre stellari (Episodio IV)",
+      "type": "modern title"
+    },
+    {
+      "iso_3166_1": "SE",
+      "title": "Star Wars: Episod IV – Nytt hopp",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "ES",
+      "title": "Star Wars: Una Nueva Esperanza",
+      "type": "modern title"
+    },
+    {
+      "iso_3166_1": "KR",
+      "title": "스타 워즈 에피소드 4: 새로운 희망",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "CH",
+      "title": "Star Wars: Episode IV – Eine neue Hoffnung",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "FI",
+      "title": "Star Wars: Episodi IV – Uusi toivo",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "BR",
+      "title": "Star Wars: Episódio IV – Uma Nova Esperança",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars: A New Hope",
+      "type": "with subtitle"
+    },
+    {
+      "iso_3166_1": "TW",
+      "title": "星際大戰四部曲：曙光乍現",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "JP",
+      "title": "スター・ウォーズ",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "DK",
+      "title": "Stjernekrigen",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "KR",
+      "title": "스타워즈 에피소드4 새로운 희망",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "DK",
+      "title": "Star Wars: Episode IV – Et nyt håb",
+      "type": "reissue title"
+    },
+    {
+      "iso_3166_1": "TR",
+      "title": "Yıldız Savaşları: Yeni Ümit",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "TR",
+      "title": "Yıldız Savaşları: Bölüm IV – Yeni Bir Umut",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "TR",
+      "title": "Yıldız Savaşları 4",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "PT",
+      "title": "A Guerra das Estrelas",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars Episode IV : A New Hope – Despecialized Edition",
+      "type": "Despecialized Edition"
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars – Episode IV – Un Nouvel Espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "HU",
+      "title": "Star Wars: IV. rész – Egy új remény",
+      "type": "új cím/new title"
+    },
+    {
+      "iso_3166_1": "CZ",
+      "title": "Hvězdné války: Epizoda IV – Nová naděje",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "RU",
+      "title": "звездные войны 4",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "DE",
+      "title": "Star Wars: Episode IV – Eine neue Hoffnung",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GR",
+      "title": "Ο Πόλεμος Των Άστρων: Επεισόδιο 4 – Μια Νέα Ελπίδα",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GR",
+      "title": "Ο Πόλεμος Των Άστρων Μια Νέα Ελπίδα",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "CA",
+      "title": "Star Wars : Épisode IV – Un nouvel espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "ES",
+      "title": "Star Wars: Episodio IV – Una nueva esperanza",
+      "type": "reissue title"
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars 4K77",
+      "type": "Project 4K Edition"
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Adventures of the Starkiller: Episode 1 – The Star Wars",
+      "type": "working title"
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "The Star Wars",
+      "type": "original script title"
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "The Star Wars: From the Adventures of Luke Starkiller",
+      "type": "working title"
+    },
+    {
+      "iso_3166_1": "IT",
+      "title": "Star Wars – Guerre stellari",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "DK",
+      "title": "Star Wars Episode IV – A New Hope",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "SE",
+      "title": "Stjärnornas Krig",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars – Episode 4 – Un Nouvel Espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "IN",
+      "title": "स्टार वार्स",
+      "type": "Hindi"
+    },
+    {
+      "iso_3166_1": "IT",
+      "title": "Star Wars – Una Nuova Speranza",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "VN",
+      "title": "Chiến Tranh Giữa Các Vì Sao 4: Niềm Hi Vọng Mới",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "ES",
+      "title": "La guerra de las galaxias. Episodio 4, Una nueva esperanza",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars IV Despecialized",
+      "type": "Despecialized Edition"
+    },
+    {
+      "iso_3166_1": "CH",
+      "title": "Star Wars, épisode IV – Un nouvel espoir",
+      "type": "modern title"
+    },
+    {
+      "iso_3166_1": "IT",
+      "title": "Star Wars: Episodio IV – Una nuova speranza",
+      "type": "nuovo titolo"
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Un nouvel espoir",
+      "type": "short title"
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars : Un nouvel espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars Episode IV – A New Hope",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "IT",
+      "title": "Star Wars – Episodio IV – Una nuova speranza",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "RU",
+      "title": "Звёздные войны: Эпизод IV – Новая надежда",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "UA",
+      "title": "Зоряні війни: Нова надія",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "RU",
+      "title": "Звёздные войны: Новая надежда",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "RU",
+      "title": "Звездные войны: Эпизод 4 – Новая надежда",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GB",
+      "title": "Star Wars – Episode IV – A New Hope",
+      "type": "modern titles"
+    },
+    {
+      "iso_3166_1": "SK",
+      "title": "Hviezdne vojny IV – Nová nádej",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "SK",
+      "title": "Hviezdne vojny: Epizóda IV – Nová nádej",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "SK",
+      "title": "Star Wars: Nová nádej",
+      "type": "Short modern"
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars IV – Un nouvel espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GB",
+      "title": "Star Wars: Episode IV – A New Hope",
+      "type": "full title"
+    },
+    {
+      "iso_3166_1": "KR",
+      "title": "스타워즈 에피소드 4 새로운 희망",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "US",
+      "title": "Star Wars: A New Hope (Episode IV)",
+      "type": "Disney+"
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars – Episode IV – La Guerre des étoiles",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars 4 – Un nouvel espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "PL",
+      "title": "Gwiezdne Wojny IV – Nowa Nadzieja",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars, épisode IV - Un nouvel espoir",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "CN",
+      "title": "星球大战：新希望",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "CN",
+      "title": "星球大战4：新希望",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "ES",
+      "title": "La guerra de les galàxies",
+      "type": "Alternative Catalan Title"
+    },
+    {
+      "iso_3166_1": "FR",
+      "title": "Star Wars, épisode IV : Un nouvel espoir",
+      "type": "depuis 1981"
+    },
+    {
+      "iso_3166_1": "HU",
+      "title": "Csillagok Háborúja IV. – Egy Új Remény",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GE",
+      "title": "ვარსკვლავური ომები: ეპიზოდი IV – ახალი იმედი",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GE",
+      "title": "ვარსკვლავური ომები: ახალი იმედი (ეპიზოდი IV)",
+      "type": "Disney+"
+    },
+    {
+      "iso_3166_1": "GE",
+      "title": "ვარსკვლავური ომები: ეპიზოდი 4",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GE",
+      "title": "ვარსკვლავური ომები 4",
+      "type": "short title"
+    },
+    {
+      "iso_3166_1": "GE",
+      "title": "ვარსკვლავური ომები: ეპიზოდი IV",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "GE",
+      "title": "ვარსკვლავური ომები IV",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "ES",
+      "title": "La guerra de las galaxias. Episodio IV. Una nueva esperanza",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "MX",
+      "title": "Star Wars Episodio IV: Una nueva esperanza",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "IL",
+      "title": "סטאר וורס פרק IV: תקווה חדשה",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "CZ",
+      "title": "Star Wars: Epizoda IV – Nová naděje",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "HK",
+      "title": "星球大戰：新的希望",
+      "type": ""
+    },
+    {
+      "iso_3166_1": "DE",
+      "title": "Star Wars Episode 4 - Eine neue Hoffnung",
+      "type": ""
+    }
+  ]
+}

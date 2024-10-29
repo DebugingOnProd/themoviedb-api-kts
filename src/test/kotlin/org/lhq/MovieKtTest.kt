@@ -5,21 +5,26 @@ import org.junit.jupiter.api.Test
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.movie.AccountStates
+import org.lhq.entity.movie.AlternativeTitle
 import org.lhq.entity.movie.MovieDetail
 import org.slf4j.LoggerFactory
 import org.lhq.utlis.ReadFile
+import kotlin.test.AfterTest
+import kotlin.test.BeforeTest
 import kotlin.test.assertEquals
 
 class MovieKtTest {
 
     private val logger = LoggerFactory.getLogger(MovieKtTest::class.java)
 
+    private val readFile = ReadFile()
+    private val tmdbConfig = readFile.readEntity<TmdbConfig>("config.json")
+
+
 
     @Test
     @DisplayName("get_movie_detail")
     fun getMovieDetailTest() {
-        val readFile = ReadFile()
-        val tmdbConfig = readFile.readEntity<TmdbConfig>("config.json")
         System.setProperty("java.net.useSystemProxies", "true");
         logger.debug("config: {}", tmdbConfig)
         val movieApi = TmdbApi(tmdbConfig).getMovieApi()
@@ -32,11 +37,18 @@ class MovieKtTest {
     @Test
     @DisplayName("get_account_states")
     fun getAccountStatesTest() {
-        val readFile = ReadFile()
-        val tmdbConfig = readFile.readEntity<TmdbConfig>("config.json")
         val accountStates = TmdbApi(tmdbConfig).getMovieApi().getAccountStates(11)
         val expectedAccountStates = readFile.readEntity<AccountStates>("api_test_result/movie/account_states.json")
         assertEquals(expectedAccountStates, accountStates,"用户电影状态实际值与预期值不相等")
         logger.debug("accountStates: {}", accountStates)
+    }
+
+    @Test
+    @DisplayName("get_alternative_titles")
+    fun getAlternativeTitlesTest(){
+        val alternativeTitles = TmdbApi(tmdbConfig).getMovieApi().getAlternativeTitles(11)
+        val expectedAlternativeTitle = readFile.readEntity<AlternativeTitle>("api_test_result/movie/alternative_titles.json")
+        assertEquals(expectedAlternativeTitle, alternativeTitles,"电影替代标题实际值与预期值不相等")
+        logger.debug("alternativeTitles: {}", alternativeTitles)
     }
 }

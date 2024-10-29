@@ -1,6 +1,7 @@
 package org.lhq.api
 
 import org.lhq.entity.movie.AccountStates
+import org.lhq.entity.movie.AlternativeTitle
 import org.lhq.entity.movie.MovieDetail
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
@@ -30,6 +31,19 @@ class MovieApi(private val httpClient: HttpClient){
         val url = "/3/movie/${movieId}/account_states"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET)
         val result = GsonUtils.fromJson<AccountStates>(response)
+        return result
+    }
+
+
+    /**
+     * Get the list of alternative titles for a movie.
+     * 获取电影其他名称列表。
+     */
+
+    fun getAlternativeTitles(movieId:Int) : AlternativeTitle?{
+        val url = "/3/movie/${movieId}/alternative_titles"
+        val response = httpClient.request(UrlBuilder(url), RequestType.GET)
+        val result = GsonUtils.fromJson<AlternativeTitle>(response)
         return result
     }
 }
