@@ -6,11 +6,11 @@ import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.movie.AccountStates
 import org.lhq.entity.movie.AlternativeTitle
+import org.lhq.entity.movie.Credits
 import org.lhq.entity.movie.MovieDetail
-import org.slf4j.LoggerFactory
 import org.lhq.utlis.ReadFile
-import kotlin.test.AfterTest
-import kotlin.test.BeforeTest
+import org.slf4j.LoggerFactory
+import java.time.LocalDate
 import kotlin.test.assertEquals
 
 class MovieKtTest {
@@ -50,5 +50,23 @@ class MovieKtTest {
         val expectedAlternativeTitle = readFile.readEntity<AlternativeTitle>("api_test_result/movie/alternative_titles.json")
         assertEquals(expectedAlternativeTitle, alternativeTitles,"电影替代标题实际值与预期值不相等")
         logger.debug("alternativeTitles: {}", alternativeTitles)
+    }
+
+    @Test
+    @DisplayName("get_recent_changes_movie")
+    fun getRecentChangesMovieTest(){
+        val nowDate = LocalDate.now()
+        val aWeedAge = nowDate.plusDays(-7)
+        val recentChangesMovie = TmdbApi(tmdbConfig).getMovieApi().getRecentChangesMovie(912649, 1, aWeedAge, nowDate)
+        logger.debug("recentChangesMovie: {}", recentChangesMovie)
+    }
+
+    @Test
+    @DisplayName("get_credits")
+    fun getCreditsTest(){
+        val credits = TmdbApi(tmdbConfig).getMovieApi().getCredits(11)
+        val expectedCredits = readFile.readEntity<Credits>("api_test_result/movie/credits.json")
+        logger.debug("credits: {}", credits)
+        assertEquals(expectedCredits, credits)
     }
 }

@@ -1,12 +1,11 @@
 package org.lhq.api
 
-import org.lhq.entity.movie.AccountStates
-import org.lhq.entity.movie.AlternativeTitle
-import org.lhq.entity.movie.MovieDetail
+import org.lhq.entity.movie.*
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
 import org.lhq.http.UrlBuilder
 import org.lhq.utils.GsonUtils
+import java.time.LocalDate
 
 class MovieApi(private val httpClient: HttpClient){
 
@@ -46,6 +45,52 @@ class MovieApi(private val httpClient: HttpClient){
         val url = "/3/movie/${movieId}/alternative_titles"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET)
         val result = GsonUtils.fromJson<AlternativeTitle>(response)
+        return result
+    }
+
+
+
+
+    /**
+     * Get the changes for a movie.  default only the last 24 hours are returned.
+     *
+     * You can query up to 14 days in a single query by using the start_date and end_date query parameters.
+     * @param movieId
+     * @param page
+     * @param startDate
+     * @param endDate
+     * @param movieId the movie id
+     * @return AlternativeTitle
+     */
+    fun getRecentChangesMovie(movieId: Int,
+                              page:Int,
+                              startDate: LocalDate?,
+                              endDate: LocalDate?) : String? {
+        val url = "/3/movie/${movieId}/changes"
+        val urlBuilder = UrlBuilder(url)
+        startDate?.let {
+            urlBuilder.addParam("start_date",it.toString())
+        }
+        endDate?.let {
+            urlBuilder.addParam("end_date",it.toString())
+        }
+        urlBuilder.addParam("page",page.toString())
+        val result = httpClient.request(urlBuilder, RequestType.GET)
+        return result
+    }
+
+
+    /**
+     * Get the credits for a movie.
+     * 获取电影 credits。
+     * @param movieId the movie id
+     * @return Credits
+     */
+
+    fun getCredits(movieId:Int) : Credits?{
+        val url = "/3/movie/${movieId}/credits"
+        val response = httpClient.request(UrlBuilder(url), RequestType.GET)
+        val result = GsonUtils.fromJson<Credits>(response)
         return result
     }
 }
