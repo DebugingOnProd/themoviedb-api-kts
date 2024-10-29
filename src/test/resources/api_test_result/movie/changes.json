@@ -1,0 +1,568 @@
+{
+  "changes": [
+    {
+      "key": "title",
+      "items": [
+        {
+          "id": "671ffaaea4ac8a432c5cdf0e",
+          "action": "added",
+          "time": "2024-10-28 20:57:18 UTC",
+          "iso_639_1": "sl",
+          "iso_3166_1": "SI",
+          "value": "Venom: Zadnji ples"
+        },
+        {
+          "id": "672018554542e371fe0b230e",
+          "action": "added",
+          "time": "2024-10-28 23:03:49 UTC",
+          "iso_639_1": "ro",
+          "iso_3166_1": "RO",
+          "value": "Venom: Ultimul dans"
+        }
+      ]
+    },
+    {
+      "key": "overview",
+      "items": [
+        {
+          "id": "671ffaaea4ac8a432c5cdf0f",
+          "action": "added",
+          "time": "2024-10-28 20:57:18 UTC",
+          "iso_639_1": "sl",
+          "iso_3166_1": "SI",
+          "value": "Eddie in Venom sta na begu. Lovita ju oba njuna svetova, in ko se začne mreža zategovati okoli njiju, sta prisiljena sprejeti uničujočo odločitev, ki bo spustila zastor čez Venomov in Eddiejev zadnji ples."
+        }
+      ]
+    },
+    {
+      "key": "tagline",
+      "items": [
+        {
+          "id": "671ffad85be9e8759da7d44e",
+          "action": "added",
+          "time": "2024-10-28 20:58:00 UTC",
+          "iso_639_1": "sl",
+          "iso_3166_1": "SI",
+          "value": {
+            "primary": false,
+            "tagline": "Dokler naju smrt ne loči."
+          }
+        }
+      ]
+    },
+    {
+      "key": "plot_keywords",
+      "items": [
+        {
+          "id": "671fc93f427c5c19f02680b4",
+          "action": "added",
+          "time": "2024-10-28 17:26:23 UTC",
+          "iso_639_1": "",
+          "iso_3166_1": "",
+          "value": {
+            "name": "detached",
+            "id": 201125,
+            "group": "tones"
+          }
+        }
+      ]
+    },
+    {
+      "key": "images",
+      "items": [
+        {
+          "id": "671ee52827bd57d91f631943",
+          "action": "updated",
+          "time": "2024-10-28 01:13:12 UTC",
+          "iso_639_1": "en",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/zxRzG8tfUZKxFJQbiWM71vnuEJo.jpg",
+              "iso_639_1": "en"
+            }
+          },
+          "original_value": {
+            "poster": {
+              "file_path": "/zxRzG8tfUZKxFJQbiWM71vnuEJo.jpg",
+              "iso_639_1": null
+            }
+          }
+        },
+        {
+          "id": "671ee5424be15469e70e37ae",
+          "action": "updated",
+          "time": "2024-10-28 01:13:38 UTC",
+          "iso_639_1": "en",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/k42Owka8v91trK1qMYwCQCNwJKr.jpg",
+              "iso_639_1": "en"
+            }
+          },
+          "original_value": {
+            "poster": {
+              "file_path": "/k42Owka8v91trK1qMYwCQCNwJKr.jpg",
+              "iso_639_1": "dv"
+            }
+          }
+        },
+        {
+          "id": "671f9bec4542e371fe0b183b",
+          "action": "added",
+          "time": "2024-10-28 14:13:00 UTC",
+          "iso_639_1": "",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/oMibGSwh5pZunORFrN989bSinZD.jpg"
+            }
+          }
+        },
+        {
+          "id": "671f9bf82685cb6563c15265",
+          "action": "updated",
+          "time": "2024-10-28 14:13:12 UTC",
+          "iso_639_1": "de",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/oMibGSwh5pZunORFrN989bSinZD.jpg",
+              "iso_639_1": "de"
+            }
+          },
+          "original_value": {
+            "poster": {
+              "file_path": "/oMibGSwh5pZunORFrN989bSinZD.jpg",
+              "iso_639_1": null
+            }
+          }
+        },
+        {
+          "id": "671fe670fefd1e051000acd0",
+          "action": "added",
+          "time": "2024-10-28 19:30:56 UTC",
+          "iso_639_1": "",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/w039klJ3YPl2be5m7A7GbVbM5kL.jpg"
+            }
+          }
+        },
+        {
+          "id": "671fe6d034c0fabd681d37ee",
+          "action": "added",
+          "time": "2024-10-28 19:32:32 UTC",
+          "iso_639_1": "",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/khBIxHSTZrQI2SmH7w7kwQuFplV.jpg"
+            }
+          }
+        },
+        {
+          "id": "671fe70fa4ac8a432c5cda82",
+          "action": "updated",
+          "time": "2024-10-28 19:33:35 UTC",
+          "iso_639_1": "en",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/w039klJ3YPl2be5m7A7GbVbM5kL.jpg",
+              "iso_639_1": "en"
+            }
+          },
+          "original_value": {
+            "poster": {
+              "file_path": "/w039klJ3YPl2be5m7A7GbVbM5kL.jpg",
+              "iso_639_1": null
+            }
+          }
+        },
+        {
+          "id": "671fe712a4ac8a432c5cda85",
+          "action": "updated",
+          "time": "2024-10-28 19:33:38 UTC",
+          "iso_639_1": "en",
+          "iso_3166_1": "",
+          "value": {
+            "poster": {
+              "file_path": "/khBIxHSTZrQI2SmH7w7kwQuFplV.jpg",
+              "iso_639_1": "en"
+            }
+          },
+          "original_value": {
+            "poster": {
+              "file_path": "/khBIxHSTZrQI2SmH7w7kwQuFplV.jpg",
+              "iso_639_1": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "translations",
+      "items": [
+        {
+          "id": "671ffa7327bd57d91f633e28",
+          "action": "added",
+          "time": "2024-10-28 20:56:19 UTC",
+          "iso_639_1": "",
+          "iso_3166_1": "",
+          "value": "sl-SI"
+        },
+        {
+          "id": "672018432685cb6563c16fa4",
+          "action": "added",
+          "time": "2024-10-28 23:03:31 UTC",
+          "iso_639_1": "",
+          "iso_3166_1": "",
+          "value": "ro-RO"
+        }
+      ]
+    },
+    {
+      "key": "videos",
+      "items": [
+        {
+          "id": "671f3587427c5c19f026673d",
+          "action": "added",
+          "time": "2024-10-28 06:56:07 UTC",
+          "iso_639_1": "ja",
+          "iso_3166_1": "JP",
+          "value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞『ヴェノム：ザ・ラストダンス』6秒予告 11/1（金）全国公開【字幕版／日本語吹替版】　#ヴェノム",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f3599427c5c19f0266745",
+          "action": "updated",
+          "time": "2024-10-28 06:56:25 UTC",
+          "iso_639_1": "ja",
+          "iso_3166_1": "JP",
+          "value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞【字幕版／日本語吹替版】",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞『ヴェノム：ザ・ラストダンス』6秒予告 11/1（金）全国公開【字幕版／日本語吹替版】　#ヴェノム",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f35ab34c0fabd681d1ac8",
+          "action": "updated",
+          "time": "2024-10-28 06:56:43 UTC",
+          "iso_639_1": "ja",
+          "iso_3166_1": "JP",
+          "value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞ 6秒予告【字幕版／日本語吹替版】",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞【字幕版／日本語吹替版】",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f35c26e4210780f79771c",
+          "action": "added",
+          "time": "2024-10-28 06:57:06 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f35c26e4210780f79771b",
+            "name": "VENOM: EL ÚLTIMO BAILE. El pasado de Venom podría ser el fin. Exclusivamente en cines.",
+            "key": "F8OacBKe75c",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f35c89ff681d9e0a4917f",
+          "action": "added",
+          "time": "2024-10-28 06:57:12 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f35c89ff681d9e0a4917e",
+            "name": "VENOM: EL ÚLTIMO BAILE. ¡Hemos vuelto! Exclusivamente en cines.",
+            "key": "ddZns-4tDBA",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f35cc9ff681d9e0a49180",
+          "action": "updated",
+          "time": "2024-10-28 06:57:16 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f35c89ff681d9e0a4917e",
+            "name": "¡Hemos vuelto!",
+            "key": "ddZns-4tDBA",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f35c89ff681d9e0a4917e",
+            "name": "VENOM: EL ÚLTIMO BAILE. ¡Hemos vuelto! Exclusivamente en cines.",
+            "key": "ddZns-4tDBA",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f35d0c7802cc5035a7efd",
+          "action": "updated",
+          "time": "2024-10-28 06:57:20 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f35c26e4210780f79771b",
+            "name": "El pasado de Venom podría ser el fin.",
+            "key": "F8OacBKe75c",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f35c26e4210780f79771b",
+            "name": "VENOM: EL ÚLTIMO BAILE. El pasado de Venom podría ser el fin. Exclusivamente en cines.",
+            "key": "F8OacBKe75c",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f36aa27bd57d91f631c29",
+          "action": "added",
+          "time": "2024-10-28 07:00:58 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f36aa27bd57d91f631c28",
+            "name": "VENOM: EL ÚLTIMO BAILE. Ha llegado la hora. Exclusivamente en cines.",
+            "key": "n3mfrNkV0sU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f36af27bd57d91f631c2e",
+          "action": "updated",
+          "time": "2024-10-28 07:01:03 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f36aa27bd57d91f631c28",
+            "name": "Ha llegado la hora.",
+            "key": "n3mfrNkV0sU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f36aa27bd57d91f631c28",
+            "name": "VENOM: EL ÚLTIMO BAILE. Ha llegado la hora. Exclusivamente en cines.",
+            "key": "n3mfrNkV0sU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671f36b1c7802cc5035a7f49",
+          "action": "updated",
+          "time": "2024-10-28 07:01:05 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671f36aa27bd57d91f631c28",
+            "name": "Ha llegado la hora",
+            "key": "n3mfrNkV0sU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f36aa27bd57d91f631c28",
+            "name": "Ha llegado la hora.",
+            "key": "n3mfrNkV0sU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671fbc1b427c5c19f0267d4e",
+          "action": "added",
+          "time": "2024-10-28 16:30:19 UTC",
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "value": {
+            "id": "671fbc1b427c5c19f0267d4d",
+            "name": "Venom: The Last Dance | Official IMAX® Interview | Filmed For IMAX®",
+            "key": "utiep_e9hnU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Featurette"
+          }
+        },
+        {
+          "id": "671fbc21427c5c19f0267d52",
+          "action": "updated",
+          "time": "2024-10-28 16:30:25 UTC",
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "value": {
+            "id": "671fbc1b427c5c19f0267d4d",
+            "name": "Official IMAX® Interview",
+            "key": "utiep_e9hnU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Featurette"
+          },
+          "original_value": {
+            "id": "671fbc1b427c5c19f0267d4d",
+            "name": "Venom: The Last Dance | Official IMAX® Interview | Filmed For IMAX®",
+            "key": "utiep_e9hnU",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Featurette"
+          }
+        },
+        {
+          "id": "671fef8b9ff681d9e0a4b3fc",
+          "action": "added",
+          "time": "2024-10-28 20:09:47 UTC",
+          "iso_639_1": "ja",
+          "iso_3166_1": "JP",
+          "value": {
+            "id": "671fef8b9ff681d9e0a4b3fb",
+            "name": "＜あと３日！＞『ヴェノム：ザ・ラストダンス』6秒予告 11/1（金）全国公開【字幕版／日本語吹替版】　#ヴェノム",
+            "key": "2fMwid4N2sE",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671fefa3427c5c19f0268743",
+          "action": "updated",
+          "time": "2024-10-28 20:10:11 UTC",
+          "iso_639_1": "ja",
+          "iso_3166_1": "JP",
+          "value": {
+            "id": "671fef8b9ff681d9e0a4b3fb",
+            "name": "＜あと３日！＞ 6秒予告",
+            "key": "2fMwid4N2sE",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671fef8b9ff681d9e0a4b3fb",
+            "name": "＜あと３日！＞『ヴェノム：ザ・ラストダンス』6秒予告 11/1（金）全国公開【字幕版／日本語吹替版】　#ヴェノム",
+            "key": "2fMwid4N2sE",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671fefa7e833d92ef060b2b4",
+          "action": "updated",
+          "time": "2024-10-28 20:10:15 UTC",
+          "iso_639_1": "ja",
+          "iso_3166_1": "JP",
+          "value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞ 6秒予告",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671f3587427c5c19f026673c",
+            "name": "＜あと４日だ！＞ 6秒予告【字幕版／日本語吹替版】",
+            "key": "1cnuAqZYm2k",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671fefd19ff681d9e0a4b414",
+          "action": "added",
+          "time": "2024-10-28 20:10:57 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671fefd19ff681d9e0a4b412",
+            "name": "VENOM: EL ÚLTIMO BAILE.¡N1 en cines!  No te pierdas el final épico. ¡Consigue tus entradas!",
+            "key": "JOHvLryh3Ck",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        },
+        {
+          "id": "671fefdb34c0fabd681d3c0e",
+          "action": "updated",
+          "time": "2024-10-28 20:11:07 UTC",
+          "iso_639_1": "es",
+          "iso_3166_1": "ES",
+          "value": {
+            "id": "671fefd19ff681d9e0a4b412",
+            "name": "¡N1 en cines!  No te pierdas el final épico. ¡Consigue tus entradas!",
+            "key": "JOHvLryh3Ck",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          },
+          "original_value": {
+            "id": "671fefd19ff681d9e0a4b412",
+            "name": "VENOM: EL ÚLTIMO BAILE.¡N1 en cines!  No te pierdas el final épico. ¡Consigue tus entradas!",
+            "key": "JOHvLryh3Ck",
+            "size": 1080,
+            "site": "YouTube",
+            "type": "Teaser"
+          }
+        }
+      ]
+    }
+  ]
+}

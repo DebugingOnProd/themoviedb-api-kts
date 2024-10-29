@@ -4,12 +4,10 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
-import org.lhq.entity.movie.AccountStates
-import org.lhq.entity.movie.AlternativeTitle
-import org.lhq.entity.movie.Credits
-import org.lhq.entity.movie.MovieDetail
+import org.lhq.entity.movie.*
 import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
+import java.text.DateFormat
 import java.time.LocalDate
 import kotlin.test.assertEquals
 
@@ -55,10 +53,14 @@ class MovieKtTest {
     @Test
     @DisplayName("get_recent_changes_movie")
     fun getRecentChangesMovieTest(){
-        val nowDate = LocalDate.now()
-        val aWeedAge = nowDate.plusDays(-7)
-        val recentChangesMovie = TmdbApi(tmdbConfig).getMovieApi().getRecentChangesMovie(912649, 1, aWeedAge, nowDate)
+        val endDate = LocalDate.parse("2024-10-29")
+        val startDate = LocalDate.parse("2024-10-28")
+        val recentChangesMovie = TmdbApi(tmdbConfig)
+            .getMovieApi()
+            .getRecentChangesMovie(912649, 1, startDate, endDate)
+        val expectedChangesList = readFile.readEntity<ChangeList>("api_test_result/movie/changes.json")
         logger.debug("recentChangesMovie: {}", recentChangesMovie)
+        assertEquals(expectedChangesList, recentChangesMovie)
     }
 
     @Test

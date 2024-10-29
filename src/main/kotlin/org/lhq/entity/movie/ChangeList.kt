@@ -60,3 +60,6 @@ data class ChangeItem<T>(
     val key: String,
     val items: List<T>
 )
+data class ChangeList(
+    val changes : List<ChangeItem<Any>>
+)

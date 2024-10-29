@@ -5,9 +5,13 @@ import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
 import org.lhq.http.UrlBuilder
 import org.lhq.utils.GsonUtils
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 import java.time.LocalDate
 
 class MovieApi(private val httpClient: HttpClient){
+
+    private val logger : Logger = LoggerFactory.getLogger(MovieApi::class.java)
 
     /**
      * 获取电影详情
@@ -65,7 +69,7 @@ class MovieApi(private val httpClient: HttpClient){
     fun getRecentChangesMovie(movieId: Int,
                               page:Int,
                               startDate: LocalDate?,
-                              endDate: LocalDate?) : String? {
+                              endDate: LocalDate?) : ChangeList? {
         val url = "/3/movie/${movieId}/changes"
         val urlBuilder = UrlBuilder(url)
         startDate?.let {
@@ -76,7 +80,8 @@ class MovieApi(private val httpClient: HttpClient){
         }
         urlBuilder.addParam("page",page.toString())
         val result = httpClient.request(urlBuilder, RequestType.GET)
-        return result
+        val changeItem = GsonUtils.fromJson<ChangeList>(result)
+        return changeItem
     }
 
 
