@@ -13,7 +13,7 @@ class AccountApi(private val httpClient: HttpClient) {
     fun getDetails(id: Int) : AccountDetails? {
         val url = "/3/account/$id"
         val urlBuilder = UrlBuilder(url)
-        val json: String? = httpClient.request(urlBuilder, RequestType.GET)
+        val json: String? = httpClient.request(urlBuilder, RequestType.GET, true)
         val accountDetails = GsonUtils.fromJson<AccountDetails>(json)
         return accountDetails
     }
@@ -23,7 +23,7 @@ class AccountApi(private val httpClient: HttpClient) {
         val paramUrl = UrlBuilder(url)
             .addParam("page", "$page")
             .addParam("sort_by", sortBy.getValue())
-        val json: String? = httpClient.request(paramUrl, RequestType.GET)
+        val json: String? = httpClient.request(paramUrl, RequestType.GET ,true)
         val result = GsonUtils.fromJson<FavoriteResult>(json)
         return result
     }
@@ -33,7 +33,7 @@ class AccountApi(private val httpClient: HttpClient) {
         val paramUrl = UrlBuilder(url)
             .addParam("sort_by", sortBy.getValue())
             .addParam("page", "$page");
-        val json: String? = httpClient.request(paramUrl, RequestType.GET)
+        val json: String? = httpClient.request(paramUrl, RequestType.GET ,true)
         val result = GsonUtils.fromJson<FavoriteResult>(json)
         return result
     }

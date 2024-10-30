@@ -13,10 +13,12 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
     private val logger = LoggerFactory.getLogger(HttpClient::class.java)
     private val httpClientTMDB = HttpClient.newHttpClient()
 
-    fun request(url:UrlBuilder ,requestType: RequestType) :String? {
+    fun request(url:UrlBuilder ,requestType: RequestType,needLanguage: Boolean) :String? {
         val ( _, apiKey:String, _ ,language:String) = tmdbConfig
         url.addParam("api_key", apiKey)
-        url.addParam("language", language)
+        if (needLanguage) {
+            url.addParam("language", language)
+        }
         logger.info("url:$url")
         return request(url.build(),requestType)
     }

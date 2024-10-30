@@ -80,4 +80,13 @@ class MovieKtTest {
         logger.debug("externalIds: {}", externalIds)
         assertEquals(expectedExternalIds, externalIds)
     }
+
+    @Test
+    @DisplayName("get_images")
+    fun getImagesTest(){
+        val images = TmdbApi(tmdbConfig).getMovieApi().getImages(842675)
+        val expectedImages = readFile.readEntity<ImageData>("api_test_result/movie/images.json")
+        logger.debug("images: {}", images)
+        assertEquals(expectedImages, images)
+    }
 }
