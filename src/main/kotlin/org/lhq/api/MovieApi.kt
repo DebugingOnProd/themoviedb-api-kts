@@ -98,4 +98,16 @@ class MovieApi(private val httpClient: HttpClient){
         val result = GsonUtils.fromJson<Credits>(response)
         return result
     }
+
+    /**
+     *
+     * Get the external ids that we have stored for a movie.
+     */
+
+    fun getExternalIds(movieId:Int) : ExternalId?{
+        val url = "/3/movie/${movieId}/external_ids"
+        val response = httpClient.request(UrlBuilder(url), RequestType.GET)
+        val result = GsonUtils.fromJson<ExternalId>(response)
+        return result
+    }
 }

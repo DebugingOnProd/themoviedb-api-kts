@@ -71,4 +71,13 @@ class MovieKtTest {
         logger.debug("credits: {}", credits)
         assertEquals(expectedCredits, credits)
     }
+
+    @Test
+    @DisplayName("get_external_ids")
+    fun getExternalIdsTest(){
+        val externalIds = TmdbApi(tmdbConfig).getMovieApi().getExternalIds(11)
+        val expectedExternalIds = readFile.readEntity<ExternalId>("api_test_result/movie/external_ids.json")
+        logger.debug("externalIds: {}", externalIds)
+        assertEquals(expectedExternalIds, externalIds)
+    }
 }
