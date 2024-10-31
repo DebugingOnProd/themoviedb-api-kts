@@ -1,0 +1,73 @@
+{
+  "id": 11,
+  "keywords": [
+    {
+      "id": 11195,
+      "name": "empire"
+    },
+    {
+      "id": 4270,
+      "name": "galaxy"
+    },
+    {
+      "id": 11196,
+      "name": "rebellion"
+    },
+    {
+      "id": 803,
+      "name": "android"
+    },
+    {
+      "id": 4271,
+      "name": "hermit"
+    },
+    {
+      "id": 6212,
+      "name": "smuggling (contraband)"
+    },
+    {
+      "id": 6089,
+      "name": "freedom"
+    },
+    {
+      "id": 526,
+      "name": "rebel"
+    },
+    {
+      "id": 11107,
+      "name": "rescue mission"
+    },
+    {
+      "id": 9882,
+      "name": "space"
+    },
+    {
+      "id": 13194,
+      "name": "planet"
+    },
+    {
+      "id": 18034,
+      "name": "desert"
+    },
+    {
+      "id": 33637,
+      "name": "super power"
+    },
+    {
+      "id": 158455,
+      "name": "oppression"
+    },
+    {
+      "id": 161176,
+      "name": "space opera"
+    },
+    {
+      "id": 177912,
+      "name": "wizard"
+    },
+    {
+      "id": 178712,
+      "name": "totalitarianism"
+    }
+  ]
+}

@@ -7,7 +7,6 @@ import org.lhq.entity.TmdbConfig
 import org.lhq.entity.movie.*
 import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
-import java.text.DateFormat
 import java.time.LocalDate
 import kotlin.test.assertEquals
 
@@ -88,5 +87,14 @@ class MovieKtTest {
         val expectedImages = readFile.readEntity<ImageData>("api_test_result/movie/images.json")
         logger.debug("images: {}", images)
         assertEquals(expectedImages, images)
+    }
+
+    @Test
+    @DisplayName("get_keywords")
+    fun getKeywordsTest(){
+        val keywords = TmdbApi(tmdbConfig).getMovieApi().getKeywords(11)
+        val expectedKeywords = readFile.readEntity<KeywordList>("api_test_result/movie/keywords.json")
+        logger.debug("keywords: {}", keywords)
+        assertEquals(expectedKeywords, keywords)
     }
 }

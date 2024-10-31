@@ -117,4 +117,12 @@ class MovieApi(private val httpClient: HttpClient){
         val result = GsonUtils.fromJson<ImageData>(response)
         return result
     }
+
+
+    fun getKeywords(movieId:Int) : KeywordList?{
+        val url = "/3/movie/${movieId}/keywords"
+        val response = httpClient.request(UrlBuilder(url), RequestType.GET, false)
+        val result = GsonUtils.fromJson<KeywordList>(response)
+        return result
+    }
 }
