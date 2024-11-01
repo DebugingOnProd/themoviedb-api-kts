@@ -125,4 +125,10 @@ class MovieApi(private val httpClient: HttpClient){
         val result = GsonUtils.fromJson<KeywordList>(response)
         return result
     }
+
+    fun getLatest():String? {
+        val url = "/3/movie/latest"
+        val response = httpClient.request(UrlBuilder(url), RequestType.GET, false)
+        return response
+    }
 }
