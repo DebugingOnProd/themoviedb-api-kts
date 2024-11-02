@@ -14,7 +14,7 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
     private val httpClientTMDB = HttpClient.newHttpClient()
 
     fun request(url:UrlBuilder ,requestType: RequestType,needLanguage: Boolean) :String? {
-        val ( _, apiKey:String, _ ,language:String) = tmdbConfig
+        val ( _, apiKey:String, _ ,language:String, apiVersion:String) = tmdbConfig
         url.addParam("api_key", apiKey)
         if (needLanguage) {
             url.addParam("language", language)
@@ -25,8 +25,8 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
 
 
     private fun request(url:String, requestType: RequestType) : String? {
-        val (baseUrl : String, _ ,token : String, _ ) = tmdbConfig
-        val requestUrl = baseUrl + url
+        val (baseUrl : String, _ ,token : String, _,apiVersion:String ) = tmdbConfig
+        val requestUrl = baseUrl + "/" + apiVersion + url
         val uri = URI.create(requestUrl)
         logger.info("requestUrl:$uri")
         val httpRequestBuilder = HttpRequest

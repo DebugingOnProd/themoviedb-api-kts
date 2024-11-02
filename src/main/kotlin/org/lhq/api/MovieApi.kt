@@ -18,7 +18,7 @@ class MovieApi(private val httpClient: HttpClient){
      */
 
     fun getDetails(movieId:Int) : MovieDetail? {
-        val url = "/3/movie/$movieId"
+        val url = "/movie/$movieId"
         val json = httpClient.request(UrlBuilder(url), RequestType.GET,true)
         val result = GsonUtils.fromJson<MovieDetail>(json.orEmpty())
         return result
@@ -31,7 +31,7 @@ class MovieApi(private val httpClient: HttpClient){
      */
 
     fun getAccountStates(movieId:Int) : AccountStates?{
-        val url = "/3/movie/${movieId}/account_states"
+        val url = "/movie/${movieId}/account_states"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, true)
         val result = GsonUtils.fromJson<AccountStates>(response)
         return result
@@ -46,7 +46,7 @@ class MovieApi(private val httpClient: HttpClient){
      */
 
     fun getAlternativeTitles(movieId:Int) : AlternativeTitle?{
-        val url = "/3/movie/${movieId}/alternative_titles"
+        val url = "/movie/${movieId}/alternative_titles"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, true)
         val result = GsonUtils.fromJson<AlternativeTitle>(response)
         return result
@@ -70,7 +70,7 @@ class MovieApi(private val httpClient: HttpClient){
                               page:Int,
                               startDate: LocalDate?,
                               endDate: LocalDate?) : ChangeList? {
-        val url = "/3/movie/${movieId}/changes"
+        val url = "/movie/${movieId}/changes"
         val urlBuilder = UrlBuilder(url)
         startDate?.let {
             urlBuilder.addParam("start_date",it.toString())
@@ -93,7 +93,7 @@ class MovieApi(private val httpClient: HttpClient){
      */
 
     fun getCredits(movieId:Int) : Credits?{
-        val url = "/3/movie/${movieId}/credits"
+        val url = "/movie/${movieId}/credits"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, true)
         val result = GsonUtils.fromJson<Credits>(response)
         return result
@@ -105,14 +105,14 @@ class MovieApi(private val httpClient: HttpClient){
      */
 
     fun getExternalIds(movieId:Int) : ExternalId?{
-        val url = "/3/movie/${movieId}/external_ids"
+        val url = "/movie/${movieId}/external_ids"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET,true)
         val result = GsonUtils.fromJson<ExternalId>(response)
         return result
     }
 
     fun getImages(movieId:Int) : ImageData?{
-        val url = "/3/movie/${movieId}/images"
+        val url = "/movie/${movieId}/images"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, false)
         val result = GsonUtils.fromJson<ImageData>(response)
         return result
@@ -120,14 +120,14 @@ class MovieApi(private val httpClient: HttpClient){
 
 
     fun getKeywords(movieId:Int) : KeywordList?{
-        val url = "/3/movie/${movieId}/keywords"
+        val url = "/movie/${movieId}/keywords"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, false)
         val result = GsonUtils.fromJson<KeywordList>(response)
         return result
     }
 
     fun getLatest():String? {
-        val url = "/3/movie/latest"
+        val url = "/movie/latest"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, false)
         return response
     }

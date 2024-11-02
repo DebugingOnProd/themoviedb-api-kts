@@ -11,7 +11,7 @@ import org.lhq.utils.GsonUtils
 class AccountApi(private val httpClient: HttpClient) {
 
     fun getDetails(id: Int) : AccountDetails? {
-        val url = "/3/account/$id"
+        val url = "/account/$id"
         val urlBuilder = UrlBuilder(url)
         val json: String? = httpClient.request(urlBuilder, RequestType.GET, true)
         val accountDetails = GsonUtils.fromJson<AccountDetails>(json)
@@ -19,7 +19,7 @@ class AccountApi(private val httpClient: HttpClient) {
     }
 
     fun getFavoriteMovies(accountId: Int,page:Int,sortBy:AccountSortBy) : FavoriteResult? {
-        val url = "/3/account/$accountId/favorite/movies"
+        val url = "/account/$accountId/favorite/movies"
         val paramUrl = UrlBuilder(url)
             .addParam("page", "$page")
             .addParam("sort_by", sortBy.getValue())
@@ -29,7 +29,7 @@ class AccountApi(private val httpClient: HttpClient) {
     }
 
     fun getFavoriteTv(accountId: Int,page:Int,sortBy:AccountSortBy) : FavoriteResult? {
-        val url = "/3/account/$accountId/favorite/tv"
+        val url = "/account/$accountId/favorite/tv"
         val paramUrl = UrlBuilder(url)
             .addParam("sort_by", sortBy.getValue())
             .addParam("page", "$page");
