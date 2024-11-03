@@ -126,9 +126,14 @@ class MovieApi(private val httpClient: HttpClient){
         return result
     }
 
-    fun getLatest():String? {
+    /**
+     * Get the latest movie.
+     */
+
+    fun getLatest(): Latest? {
         val url = "/movie/latest"
         val response = httpClient.request(UrlBuilder(url), RequestType.GET, false)
-        return response
+        val latest = GsonUtils.fromJson<Latest>(response)
+        return latest
     }
 }

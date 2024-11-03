@@ -9,6 +9,7 @@ import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
 import java.time.LocalDate
 import kotlin.test.assertEquals
+import kotlin.test.assertNull
 
 class MovieKtTest {
 
@@ -96,5 +97,14 @@ class MovieKtTest {
         val expectedKeywords = readFile.readEntity<KeywordList>("api_test_result/movie/keywords.json")
         logger.debug("keywords: {}", keywords)
         assertEquals(expectedKeywords, keywords)
+    }
+
+    @Test
+    @DisplayName("get_latest")
+    fun getLatestTest(){
+        val latest = TmdbApi(tmdbConfig).getMovieApi().getLatest()
+        val expectedLatest = readFile.readEntity<Latest>("api_test_result/movie/latest.json")
+        logger.debug("latest: {}", latest)
+        assertEquals(expectedLatest, latest)
     }
 }

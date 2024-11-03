@@ -1,0 +1,30 @@
+package org.lhq.entity.movie
+
+data class Latest(
+    val adult: Boolean,
+    val backdropPath: Any? = null,
+    val belongsToCollection: Any? = null,
+    val budget: Long,
+    val genres: List<Any?>,
+    val homepage: String,
+    val id: Long,
+    val imdbID: Any? = null,
+    val originCountry: List<String>,
+    val originalLanguage: String,
+    val originalTitle: String,
+    val overview: String,
+    val popularity: Long,
+    val posterPath: Any? = null,
+    val productionCompanies: List<Any?>,
+    val productionCountries: List<Any?>,
+    val releaseDate: String,
+    val revenue: Long,
+    val runtime: Long,
+    val spokenLanguages: List<SpokenLanguage>,
+    val status: String,
+    val tagline: String,
+    val title: String,
+    val video: Boolean,
+    val voteAverage: Long,
+    val voteCount: Long
+)
