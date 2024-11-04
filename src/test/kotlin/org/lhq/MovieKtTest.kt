@@ -107,4 +107,14 @@ class MovieKtTest {
         logger.debug("latest: {}", latest)
         assertEquals(expectedLatest, latest)
     }
+
+
+    @Test
+    @DisplayName("get_movie_lists")
+    fun getMovieListsTest(){
+        val movieLists = TmdbApi(tmdbConfig).getMovieApi().getList(11,1)
+        val expectedMovieLists = readFile.readEntity<ListResult>("api_test_result/movie/lists.json")
+        logger.debug("movieLists: {}", movieLists)
+        assertEquals(expectedMovieLists, movieLists)
+    }
 }

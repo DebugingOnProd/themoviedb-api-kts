@@ -1,0 +1,151 @@
+{
+  "id": 11,
+  "page": 1,
+  "results": [
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8291602,
+      "item_count": 30,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "已看过",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 7095200,
+      "item_count": 1823,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "已看",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 24413,
+      "item_count": 1799,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "电影",
+      "poster_path": null
+    },
+    {
+      "description": "已看过的欧美电影",
+      "favorite_count": 0,
+      "id": 7079324,
+      "item_count": 681,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "欧美电影",
+      "poster_path": null
+    },
+    {
+      "description": "我爱看的电影",
+      "favorite_count": 0,
+      "id": 86513,
+      "item_count": 110,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "爱看电影",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8272527,
+      "item_count": 250,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "世界电影TOP250",
+      "poster_path": null
+    },
+    {
+      "description": "Released till September 30, 2023.",
+      "favorite_count": 0,
+      "id": 8213586,
+      "item_count": 1951,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "4K Ultra HD Blu-ray Released",
+      "poster_path": null
+    },
+    {
+      "description": "电影",
+      "favorite_count": 0,
+      "id": 8230148,
+      "item_count": 81,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "movie",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8228248,
+      "item_count": 30,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "Galen",
+      "poster_path": null
+    },
+    {
+      "description": "2019 看过的影视记录 (Movies/Tv watched in 2019)\n",
+      "favorite_count": 0,
+      "id": 127802,
+      "item_count": 62,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "2019 Documentary",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 145237,
+      "item_count": 12,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "星球大战系列",
+      "poster_path": null
+    },
+    {
+      "description": "《星球大战》(英文：Star Wars)，中文可简称星战，是美国导演/制作人乔治·卢卡斯所制作拍摄的一系列科幻电影。1980年代初的《星球大战》三部曲，首部星球大战的人物及故事是参照越南战争还有日本导演黑泽明的《战国英豪》所创作而成。1990年代末开始他拍摄了最初的三部曲前传的故事。同时他把最初的三部曲改为六部系列。\n2015年的《星球大战7》开始，迪士尼每年的暑期都将上映一部《星球大战》电影，这其中，新系列的《星战》每隔一年上映一部。而中间的那一年则将上映插曲电影。",
+      "favorite_count": 0,
+      "id": 119993,
+      "item_count": 11,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "星球大战",
+      "poster_path": null
+    },
+    {
+      "description": "按时大苏打 ",
+      "favorite_count": 0,
+      "id": 93568,
+      "item_count": 12,
+      "iso_639_1": "zh",
+      "iso_3166_1": "CN",
+      "list_type": "movie",
+      "name": "xx",
+      "poster_path": null
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 13
+}

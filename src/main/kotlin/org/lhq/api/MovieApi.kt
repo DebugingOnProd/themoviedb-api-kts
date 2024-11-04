@@ -136,4 +136,16 @@ class MovieApi(private val httpClient: HttpClient){
         val latest = GsonUtils.fromJson<Latest>(response)
         return latest
     }
+
+    /**
+     * Get the lists that a movie has been added to.
+     *
+     */
+
+    fun getList(movieId: Int, page: Int): ListResult? {
+        val url = "/movie/${movieId}/lists"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val listResult = GsonUtils.fromJson<ListResult>(request)
+        return listResult
+    }
 }
