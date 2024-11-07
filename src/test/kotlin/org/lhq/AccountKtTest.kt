@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.account.FavoriteResult
+import org.lhq.entity.movie.RecommendationResult
 import org.lhq.param.AccountSortBy
 import org.slf4j.LoggerFactory
 import org.lhq.utlis.ReadFile
@@ -70,5 +71,18 @@ class AccountKtTest {
         val expectedFavorite  = readFile.readEntity<FavoriteResult>("api_test_result/account/favorite_tvs.json")
         logger.info("favoriteTv:{}",favoriteTv)
         assertEquals(expectedFavorite,favoriteTv,"TmdbApi.getFovriteTv 请求结果与预期不一致")
+    }
+
+
+    @Test
+    @DisplayName("get_recommendations")
+    fun getRecommendationsTest(){
+        val  readFile = ReadFile();
+        val configStr = readFile.readJsonFileAsString("config.json")
+        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
+        val recommendations = TmdbApi(tmdbConfig).getMovieApi().getRecommendations(11,1)
+        val expectedRecommendations  = readFile.readEntity<RecommendationResult>("api_test_result/movie/recommendations.json")
+        logger.info("recommendations:{}",recommendations)
+        assertEquals(expectedRecommendations,recommendations,"TmdbApi.getRecommendations 请求结果与预期不一致")
     }
 }

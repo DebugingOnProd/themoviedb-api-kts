@@ -148,4 +148,11 @@ class MovieApi(private val httpClient: HttpClient){
         val listResult = GsonUtils.fromJson<ListResult>(request)
         return listResult
     }
+
+    fun getRecommendations(movieId: Int, page: Int): RecommendationResult? {
+        val url = "/movie/${movieId}/recommendations"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val listResult = GsonUtils.fromJson<RecommendationResult>(request)
+        return listResult
+    }
 }
