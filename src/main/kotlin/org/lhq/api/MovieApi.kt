@@ -155,4 +155,11 @@ class MovieApi(private val httpClient: HttpClient){
         val listResult = GsonUtils.fromJson<RecommendationResult>(request)
         return listResult
     }
+
+    fun getReleaseDates(movieId: Int): ReleaseDate? {
+        val url = "/movie/${movieId}/release_dates"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val releaseDate = GsonUtils.fromJson<ReleaseDate>(request)
+        return releaseDate
+    }
 }

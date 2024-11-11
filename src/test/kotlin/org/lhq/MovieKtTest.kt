@@ -117,4 +117,13 @@ class MovieKtTest {
         logger.debug("movieLists: {}", movieLists)
         assertEquals(expectedMovieLists, movieLists)
     }
+
+    @Test
+    @DisplayName("get_release_dates")
+    fun getReleaseDatesTest(){
+        val releaseDates = TmdbApi(tmdbConfig).getMovieApi().getReleaseDates(11)
+        val expectedReleaseDates = readFile.readEntity<ReleaseDate>("api_test_result/movie/release_dates.json")
+        logger.debug("releaseDates: {}", releaseDates)
+        assertEquals(expectedReleaseDates, releaseDates)
+    }
 }
