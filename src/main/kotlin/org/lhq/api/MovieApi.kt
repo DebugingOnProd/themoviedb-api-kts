@@ -162,4 +162,14 @@ class MovieApi(private val httpClient: HttpClient){
         val releaseDate = GsonUtils.fromJson<ReleaseDate>(request)
         return releaseDate
     }
+
+    /**
+     * Get the user reviews for a movie.
+     */
+    fun getReviews(movieId: Int, page: Int): String? {
+        val url = "/movie/${movieId}/reviews"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val reviewResult = GsonUtils.fromJson<String>(request)
+        return reviewResult
+    }
 }
