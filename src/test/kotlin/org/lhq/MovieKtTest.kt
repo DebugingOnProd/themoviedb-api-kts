@@ -130,9 +130,18 @@ class MovieKtTest {
     @Test
     @DisplayName("get_reviews")
     fun getReviewsTest(){
-        val reviews = TmdbApi(tmdbConfig).getMovieApi().getReviews(11,1)
-        val expectedReviews = readFile.readEntity<String>("api_test_result/movie/reviews.json")
+        val reviews = TmdbApi(tmdbConfig).getMovieApi().getReviews(842675,1)
+        val expectedReviews = readFile.readEntity<Reviews>("api_test_result/movie/reviews.json")
         logger.debug("reviews: {}", reviews)
-        assertEquals(expectedReviews, reviews)
+        assertEquals(expectedReviews, reviews,"评论值实际值与预期值不相等")
+    }
+
+    @Test
+    @DisplayName("get_similar_movies")
+    fun getSimilarMoviesTest(){
+        val similarMovies = TmdbApi(tmdbConfig).getMovieApi().getSimilarMovies(842675,1)
+        val expectedSimilarMovies = readFile.readEntity<SimilarResult>("api_test_result/movie/similar_movies.json")
+        logger.debug("similarMovies: {}", similarMovies)
+        assertEquals(expectedSimilarMovies, similarMovies,"相似电影值实际值与预期值不相等")
     }
 }

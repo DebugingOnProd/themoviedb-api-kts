@@ -166,10 +166,20 @@ class MovieApi(private val httpClient: HttpClient){
     /**
      * Get the user reviews for a movie.
      */
-    fun getReviews(movieId: Int, page: Int): String? {
+    fun getReviews(movieId: Int, page: Int) : Reviews? {
         val url = "/movie/${movieId}/reviews"
         val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
-        val reviewResult = GsonUtils.fromJson<String>(request)
-        return reviewResult
+        val reviews = GsonUtils.fromJson<Reviews>(request)
+        return reviews
+    }
+
+    /**
+     * Get the similar movies based on genres and keywords.
+     */
+    fun getSimilarMovies(movieId: Int, page: Int): SimilarResult? {
+        val url = "/movie/${movieId}/similar"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val similarResult = GsonUtils.fromJson<SimilarResult>(request)
+        return similarResult
     }
 }
