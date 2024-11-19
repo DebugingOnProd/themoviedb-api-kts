@@ -26,9 +26,12 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
 
     private fun request(url:String, requestType: RequestType) : String? {
         val (baseUrl : String, _ ,token : String, _,apiVersion:String ) = tmdbConfig
-        val requestUrl = baseUrl + "/" + apiVersion + url
+        val requestUrl = "$baseUrl/$apiVersion$url"
         val uri = URI.create(requestUrl)
         logger.info("requestUrl:$uri")
+        // 记录请求开始时间
+        val startTime = System.currentTimeMillis()
+
         val httpRequestBuilder = HttpRequest
             .newBuilder()
             .uri(uri)
@@ -48,6 +51,10 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
         }
         val response = httpClientTMDB.send(httpRequestBuilder.build(), HttpResponse.BodyHandlers.ofString())
         val responseBody = response.body()
+        // 记录请求耗时
+        val endTime = System.currentTimeMillis()
+        val duration = endTime - startTime
+        logger.debug("Request took $duration ms")
         logger.debug("responseBody:$responseBody")
         return responseBody
 
