@@ -192,4 +192,11 @@ class MovieApi(private val httpClient: HttpClient){
         val translationsResult = GsonUtils.fromJson<TranslationsResult>(request)
         return translationsResult
     }
+
+    fun getVideos(movieId: Int): VideoResult? {
+        val url = "/movie/${movieId}/videos"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val videoList = GsonUtils.fromJson<VideoResult>(request)
+        return videoList
+    }
 }

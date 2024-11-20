@@ -153,4 +153,13 @@ class MovieKtTest {
         logger.debug("translations: {}", translations)
         assertEquals(expectedTranslations, translations,"获取翻译值实际值与预期值不相等")
     }
+
+    @Test
+    @DisplayName("get_videos")
+    fun getVideosTest(){
+        val videos = TmdbApi(tmdbConfig).getMovieApi().getVideos(842675)
+        val expectedVideo = readFile.readEntity<VideoResult>("api_test_result/movie/videos.json")
+        logger.debug("videos: {}", videos)
+        assertEquals(expectedVideo, videos,"视频值实际值与预期值不相等")
+    }
 }
