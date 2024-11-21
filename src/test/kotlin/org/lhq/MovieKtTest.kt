@@ -162,4 +162,13 @@ class MovieKtTest {
         logger.debug("videos: {}", videos)
         assertEquals(expectedVideo, videos,"视频值实际值与预期值不相等")
     }
+
+    @Test
+    @DisplayName("get_watch_providers")
+    fun getWatchProvidersTest(){
+        val watchProviders = TmdbApi(tmdbConfig).getMovieApi().getWatchProviders(842675)
+        val expectedWatchProviders = readFile.readEntity<WatchProvider>("api_test_result/movie/watch_providers.json")
+        logger.debug("watchProviders: {}", watchProviders)
+        assertEquals(expectedWatchProviders, watchProviders,"获取watchProviders值实际值与预期值不相等")
+    }
 }

@@ -199,4 +199,15 @@ class MovieApi(private val httpClient: HttpClient){
         val videoList = GsonUtils.fromJson<VideoResult>(request)
         return videoList
     }
+
+    /**
+     * Get the list of watch providers (flatrate) for a movie with a given id.
+     */
+
+    fun getWatchProviders(movieId: Int): WatchProvider? {
+        val url = "/movie/${movieId}/watch/providers"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val watchProvider = GsonUtils.fromJson<WatchProvider>(request)
+        return watchProvider
+    }
 }
