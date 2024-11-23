@@ -164,6 +164,15 @@ class MovieKtTest {
     }
 
     @Test
+    @DisplayName("get_watch_providers")
+    fun getWatchProvidersTest(){
+        val watchProviders = TmdbApi(tmdbConfig).getMovieApi().getWatchProviders(842675)
+        val expectedWatchProviders = readFile.readEntity<WatchProvider>("api_test_result/movie/watch_providers.json")
+        logger.debug("watchProviders: {}", watchProviders)
+        assertEquals(expectedWatchProviders, watchProviders,"获取watchProviders值实际值与预期值不相等")
+    }
+
+    @Test
     @DisplayName("add_rating")
     fun addRatingTest() {
         val ratingResult = TmdbApi(tmdbConfig).getMovieApi().addRating(11, 8.0f)

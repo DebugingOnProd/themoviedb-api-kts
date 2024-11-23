@@ -201,6 +201,17 @@ class MovieApi(private val httpClient: HttpClient){
     }
 
     /**
+     * Get the list of watch providers (flatrate) for a movie with a given id.
+     */
+
+    fun getWatchProviders(movieId: Int): WatchProvider? {
+        val url = "/movie/${movieId}/watch/providers"
+        val request = httpClient.request(UrlBuilder(url), RequestType.GET, true)
+        val watchProvider = GsonUtils.fromJson<WatchProvider>(request)
+        return watchProvider
+    }
+
+    /**
      * Rate a movie and save it to your rated list.
      */
     fun addRating(movieId: Int, rating: Float): RatingResult? {
