@@ -199,4 +199,15 @@ class MovieApi(private val httpClient: HttpClient){
         val videoList = GsonUtils.fromJson<VideoResult>(request)
         return videoList
     }
+
+    /**
+     * Rate a movie and save it to your rated list.
+     */
+    fun addRating(movieId: Int, rating: Float): RatingResult? {
+        val url = "/movie/${movieId}/rating"
+        val requestBody = "{\"value\":$rating}"
+        val request = httpClient.post(UrlBuilder(url), requestBody)
+        val ratingResult = GsonUtils.fromJson<RatingResult>(request)
+        return ratingResult
+    }
 }

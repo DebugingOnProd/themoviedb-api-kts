@@ -1,7 +1,6 @@
 package org.lhq.entity.movie
 
 import com.google.gson.annotations.SerializedName
-import java.time.LocalDateTime
 
 data class VideoResult(
     val id: Int,

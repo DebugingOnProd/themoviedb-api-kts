@@ -20,11 +20,15 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
             url.addParam("language", language)
         }
         logger.info("url:$url")
-        return request(url.build(),requestType)
+        return request(url.build(),requestType, null)
+    }
+
+    fun post(url: UrlBuilder, body: String) : String? {
+        return request(url.build(),RequestType.POST, body)
     }
 
 
-    private fun request(url:String, requestType: RequestType) : String? {
+    private fun request(url:String, requestType: RequestType, body: String?) : String? {
         val (baseUrl : String, _ ,token : String, _,apiVersion:String ) = tmdbConfig
         val requestUrl = "$baseUrl/$apiVersion$url"
         val uri = URI.create(requestUrl)
@@ -43,7 +47,7 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
                 httpRequestBuilder.GET()
             }
             RequestType.POST -> {
-                httpRequestBuilder.POST(HttpRequest.BodyPublishers.noBody())
+                httpRequestBuilder.POST(HttpRequest.BodyPublishers.ofString(body))
             }
             RequestType.DELETE -> {
                 httpRequestBuilder.DELETE()

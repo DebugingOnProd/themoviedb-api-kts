@@ -162,4 +162,13 @@ class MovieKtTest {
         logger.debug("videos: {}", videos)
         assertEquals(expectedVideo, videos,"视频值实际值与预期值不相等")
     }
+
+    @Test
+    @DisplayName("add_rating")
+    fun addRatingTest() {
+        val ratingResult = TmdbApi(tmdbConfig).getMovieApi().addRating(11, 8.0f)
+        val expectedRatingResult = readFile.readEntity<RatingResult>("api_test_result/movie/rating.json")
+        logger.debug("ratingResult: {}", ratingResult)
+        assertEquals(expectedRatingResult, ratingResult)
+    }
 }
