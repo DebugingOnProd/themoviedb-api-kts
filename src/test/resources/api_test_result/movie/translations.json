@@ -1,616 +1,616 @@
 {
-  "id": 11,
-  "translations": [
-    {
-      "iso_3166_1": "US",
-      "iso_639_1": "en",
-      "name": "English",
-      "english_name": "English",
-      "data": {
-        "homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
-        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-        "runtime": 121,
-        "tagline": "A long time ago in a galaxy far, far away...",
-        "title": ""
-      }
-    },
-    {
-      "iso_3166_1": "DE",
-      "iso_639_1": "de",
-      "name": "Deutsch",
-      "english_name": "German",
-      "data": {
-        "homepage": "",
-        "overview": "Seit der Vernichtung der Jedi-Ritter steht die Galaxie unter der grausamen Herrschaft des Imperiums. Nur eine kleine Gruppe von Rebellen, angeführt von der schönen Prinzessin Leia, widersetzt sich der dunklen Macht. Als es ihnen gelingt, die geheimen Baupläne für den gefährlichen Todesstern zu entwenden, gerät das Imperium in Aufruhr. Durch Zufall gelangen die Pläne ausgerechnet in die Hände des Farmerjungen Luke Skywalker, der spürt, dass er sein bisheriges Leben hinter sich lassen muss. Gemeinsam mit dem weisen Obi-Wan Kenobi, den Weltraumabenteurern Han Solo und Chewbacca sowie den Droiden R2-D2 und C-3PO nimmt er den Kampf gegen das mächtige Imperium auf. Es beginnt ein Wettlauf gegen die Zeit, denn der Kampfstern kann nur vor seiner Fertigstellung zerstört werden...",
-        "runtime": 121,
-        "tagline": "Eine neue Hoffnung.",
-        "title": "Krieg der Sterne"
-      }
-    },
-    {
-      "iso_3166_1": "FR",
-      "iso_639_1": "fr",
-      "name": "Français",
-      "english_name": "French",
-      "data": {
-        "homepage": "",
-        "overview": "Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l’Étoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan Kenobi, devenu ermite au cœur des montagnes désertiques de Tatooine...",
-        "runtime": 121,
-        "tagline": "Il y a bien longtemps dans une galaxie très lointaine…",
-        "title": "La Guerre des étoiles"
-      }
-    },
-    {
-      "iso_3166_1": "IT",
-      "iso_639_1": "it",
-      "name": "Italiano",
-      "english_name": "Italian",
-      "data": {
-        "homepage": "http://starwars.com/explore/the-movies/episode-iv/",
-        "overview": "In un lontano Impero Galattico è in atto una rivolta contro i suoi dispotici capi, tra i quali il più cattivo è Lord Darth Vader. Prima di cadere nelle sue mani, la principessa Leila Organa, rappresentante dei ribelli, riesce ad affidare a due robot i piani della \"Morte Nera\" - la potentissima base spaziale di Darth Vader, capace di disintegrare un intero pianeta - e un appello al vecchio generale Obi-Wan Kenobi, che abita sul pianeta Tatooine, perché accorra in aiuto dei rivoltosi. Il messaggio viene raccolto dal giovane Luke Skywalker che, rintracciato Obi Wan Kenobi, parte con lui in soccorso della principessa a bordo di un'astronave guidata dal mercenario Han Solo e dal suo secondo Chewbacca.",
-        "runtime": 121,
-        "tagline": "Tanto tempo fa, in una galassia lontana lontana...",
-        "title": "Guerre stellari"
-      }
-    },
-    {
-      "iso_3166_1": "SK",
-      "iso_639_1": "sk",
-      "name": "Slovenčina",
-      "english_name": "Slovak",
-      "data": {
-        "homepage": "http://starwars.com/",
-        "overview": "Rytierov Jedi vyhladili vojaci Impéria, ktoré teraz vládne galaxii pevnou rukou. V každej diktatúre sa však nájdu jedinci, ktorí chcú presadiť demokraciu. Malá skupina povstalcov sa odváži vzdorovať a ukradne plány k najmocnejšej zbrani Impéria, Hviezde smrti. Imperátorov najvernejší služobník, temný lord Darth Vader, musí nájsť nielen plány, ale aj skrytú základňu povstalcov. Správa o princeznej Leie a vodcovi rebelov sa dostane až k obyčajnému mladíkovi Lukeovi Skylwalkerovi, ktorí pracuje na farme svojho strýka a tety . Luke sa nakoniec rozhodne riadiť svojím osudom, zachráni Leiu a pomáha povstalcom zvrhnúť moc Impéria spoločne so svojimi nezabudnuteľnými spojencami Obi-Wan Kenobim, domýšľavým Hanom Solom, lojálnym Chewbaccom a droidmi R2-D2 a C3PO...",
-        "runtime": 0,
-        "tagline": "Kedysi dávno v preďalekej galaxii...",
-        "title": "Star Wars: Epizóda IV - Nová nádej"
-      }
-    },
-    {
-      "iso_3166_1": "FI",
-      "iso_639_1": "fi",
-      "name": "suomi",
-      "english_name": "Finnish",
-      "data": {
-        "homepage": "",
-        "overview": "Jedi-ritarit on hävitetty ja Keisari hallitsee galaksia rautaisella kädellä. Pieni kapinallisten ryhmä rohkenee tehdä vastarintaa ja varastaa Keisarin mahtavimman aseen, taisteluasema Kuolemantähden salaiset kaaviot. Keisarin uskollisimman palvelijan, Darth Vaderin, tehtävänä on löytää kaaviot ja paikantaa kapinallisten salainen tukikohta. Kapinallisten vangittu johtaja, prinsessa Leia onnistuu lähettämään avunpyyntösignaalin, joka päätyy vaatimattoman maalaispojan, Luke Skywalkerin käsiin. Uhmaten kohtaloaan Luke vastaa haasteeseen ja lähtee pelastamaan prinsessaa ja auttamaan kapinallisia taistelussa Keisaria vastaan. Seuranaan Lukella on unohtumattomat liittolaiset: viisas Obi-Wan Kenobi, kukkoileva Han Solo, uskollinen Chewbacca sekä droididuo R2-D2 ja C-3PO.",
-        "runtime": 121,
-        "tagline": "Kauan sitten, kaukaisessa galaksissa...",
-        "title": "Tähtien sota"
-      }
-    },
-    {
-      "iso_3166_1": "GR",
-      "iso_639_1": "el",
-      "name": "ελληνικά",
-      "english_name": "Greek",
-      "data": {
-        "homepage": "http://www.starwars.com",
-        "overview": "Ο Λουκ Σκαϊγουόκερ ζει με την θετή θεία και τον θείο του σε μια φάρμα στο Τατούιν. Θέλει απεγνωσμένα να φύγει από τον πλανήτη του και να γίνει μέλος της Ακαδημίας, όπως και οι φίλοι του, αλλά ο θείος του τον χρειάζεται για την επόμενη συγκομιδή. Εντωμεταξύ, ένας ύπουλος αυτοκράτορας έχει καταλάβει τον γαλαξία και έχει κατασκευάσει ένα φοβερό «Death Star» ικανό να καταστρέψει ολόκληρους πλανήτες. Η πριγκίπισσα Λέα, αρχηγός του αντιστασιακού κινήματος, καταφέρνει να αποκτήσει σχέδια του Death Star και τα τοποθετεί στον R2-D2, ένα ανδροειδές, και τον στέλνει να βρει τον Όμπι-Ουάν Κενόμπι. Πριν τον βρει, καταλήγει στην φάρμα του Σκαϊγουόκερ με τον φίλο του C-3PO. Ο Λουκ τους ακολουθεί και τελικά συναντούν τον Όμπι-Ουάν. Μαζί προσπαθούν όλοι να καταστρέψουν το «Death Star».",
-        "runtime": 121,
-        "tagline": "Πριν από πολύ καιρό σε ένα γαλαξία πολύ πολύ μακριά...",
-        "title": "Star Wars: Επεισόδιο IV – Μια Νέα Ελπίδα"
-      }
-    },
-    {
-      "iso_3166_1": "RU",
-      "iso_639_1": "ru",
-      "name": "Pусский",
-      "english_name": "Russian",
-      "data": {
-        "homepage": "",
-        "overview": "Татуин. Планета-пустыня. Уже постаревший рыцарь Джедай Оби Ван Кеноби спасает молодого Люка Скайуокера, когда тот пытается отыскать пропавшего дроида. С этого момента Люк осознает свое истинное назначение: он один из рыцарей Джедай. В то время как гражданская война охватила галактику, а войска повстанцев ведут бои против сил злого Императора, к Люку и Оби Вану присоединяется отчаянный пилот-наемник Хан Соло, и в сопровождении двух дроидов, R2D2 и C-3PO, этот необычный отряд отправляется на поиски предводителя повстанцев — принцессы Леи.",
-        "runtime": 121,
-        "tagline": "",
-        "title": "Звёздные войны: Эпизод 4 - Новая надежда"
-      }
-    },
-    {
-      "iso_3166_1": "CN",
-      "iso_639_1": "zh",
-      "name": "普通话",
-      "english_name": "Mandarin",
-      "data": {
-        "homepage": "",
-        "overview": "邪恶的银河帝国控制了整个银河系，各星系居民饱受暴政之苦，反叛军仍旧坚持不懈地与之对抗。奥尔德兰行星的莱娅公主（凯莉·费舍尔 饰）得到情报人员窃取的帝国秘密武器——死星设计图，却在达斯·维德（大卫·普劳斯 饰）的穷追下被俘，但她已把数据输入机器人 R2-D2 的计算机中。机器人 R2-D2 和 C-3PO 逃亡到一个遥远的星球塔图因。年轻人卢克（马克·哈米尔 饰）发现了 R2-D2 中的求救信息，并找到在反抗帝国的战斗中幸存的绝地武士欧比旺·克诺比（亚历克·吉尼斯 饰）。他们一行在走私船长汉·索罗（哈里森·福特 饰）的帮助下，营救出了公主。卢克在克诺比所教给他的“原力”的帮助下，摧毁了死星。经过战斗的洗礼，卢克成为一名出色的自由战士。",
-        "runtime": 0,
-        "tagline": "很久很久以前，在遥远的银河系……",
-        "title": "星球大战4：新希望"
-      }
-    },
-    {
-      "iso_3166_1": "ES",
-      "iso_639_1": "es",
-      "name": "Español",
-      "english_name": "Spanish",
-      "data": {
-        "homepage": "",
-        "overview": "La princesa Leia, líder del movimiento rebelde que desea reinstaurar la República en la galaxia en los tiempos ominosos del Imperio, es capturada por las malévolas Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente más fiel del emperador. El intrépido Luke Skywalker, ayudado por Han Solo, capitán de la nave espacial \"El Halcón Milenario\", y los androides, R2D2 y C3PO, serán los encargados de luchar contra el enemigo y rescatar a la princesa para volver a instaurar la justicia en el seno de la Galaxia.",
-        "runtime": 121,
-        "tagline": "Hace mucho tiempo, en una galaxia muy lejana...",
-        "title": "La guerra de las galaxias"
-      }
-    },
-    {
-      "iso_3166_1": "TR",
-      "iso_639_1": "tr",
-      "name": "Türkçe",
-      "english_name": "Turkish",
-      "data": {
-        "homepage": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
-        "overview": "Star Wars: Bölüm IV - Yeni Bir Umut'ta Luke Skywalker, galaksiyi değiştirecek bir yolculuğa çıkar. Luke, İmparatorluğun kuruluşundan 19 yıl sonra, çöl gezegen Tatooine'de yıllardır tek başına yaşayan Obi-Wan Kenobi ile karşılaşınca, Asiler İttifakı mücadelesinin içine çekilir. Obi- Wan, Luke'u Jedi olarak eğitmeye başlarken, Luke da güzel Asi Prenses Leia'yı Darth Vader ve kötü İmparatorluğun pençesinden kurtarmak için Obi-Wan ile zorlu bir göreve girişir.",
-        "runtime": 125,
-        "tagline": "",
-        "title": "Yıldız Savaşları: Yeni Umut"
-      }
-    },
-    {
-      "iso_3166_1": "PT",
-      "iso_639_1": "pt",
-      "name": "Português",
-      "english_name": "Portuguese",
-      "data": {
-        "homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
-        "overview": "Luke Skywalker inicia uma jornada que irá mudar a galáxia. Dezanove anos após a formação do Império, Luke é atirado para a luta da Aliança Rebelde quando conhece Obi-Wan Kenobi, que vive há anos em reclusão no planeta deserto Tatooine. Obi-Wan inicia Luke no treino de Jedi e juntos embarcam numa arrojada missão para salvar a bela líder rebelde, a Princesa Leia, das garras de Darth Vader e do malvado Império.",
-        "runtime": 121,
-        "tagline": "Que a Força esteja contigo",
-        "title": "Star Wars: Episódio IV - Uma Nova Esperança"
-      }
-    },
-    {
-      "iso_3166_1": "CZ",
-      "iso_639_1": "cs",
-      "name": "Český",
-      "english_name": "Czech",
-      "data": {
-        "homepage": "",
-        "overview": "Rytíři Jedi byli vyhlazeni a Impérium vládne galaxii pevnou rukou. Malá skupina povstalců se odváží vzdorovat a ukradne plány k nejmocnější zbrani Impéria, Hvězdě smrti. Imperátorův nejvěrnější služebník, Darth Vader, musí najít plány a skrytou základnu povstalců. Zpráva o princezně Leie a vůdci rebelů se dostane až k obyčejnému farmáři, Lukovi Skywalkerovi. Ten se řídí svým osudem, zachraňuje princeznu a pomáhá povstalcům svrhnout Impérium společně s takovými nezapomenutelnými spojenci jako: Obi-Wan Kenobi, domýšlivý Han Solo, loajální Chewbacca a droidové R2-D2 a C3PO.",
-        "runtime": 121,
-        "tagline": "Před dávnými časy ve vzdálené galaxii...",
-        "title": "Hvězdné války"
-      }
-    },
-    {
-      "iso_3166_1": "KR",
-      "iso_639_1": "ko",
-      "name": "한국어/조선말",
-      "english_name": "Korean",
-      "data": {
-        "homepage": "",
-        "overview": "공화국이 붕괴하고 제국이 수립된 뒤 20년, 제다이 기사단은 전멸하고 강력한 제국군의 횡포에 은하계는 공포에 휩싸여 있다. 그러던 중 공화국 재건을 노리는 반란군이 제국군의 비밀병기 데스스타 설계도를 훔쳐 달아나고 제국군은 이를 쫓는다. 하지만 결국 제국의 손에 붙잡히게 된 그들은 드로이드 R2-D2에 설계도를 넣어서 R2의 친구 C-3PO와 탈출시키는 데 성공하고, 두 드로이드 콤비는 타투인의 시골 마을에서 숙부와 함께 살고 있던 청년 루크 스카이워커에게 오게 되는데...",
-        "runtime": 121,
-        "tagline": "아주 오래 전 멀고 먼 은하계에서...",
-        "title": "스타워즈 에피소드 4: 새로운 희망"
-      }
-    },
-    {
-      "iso_3166_1": "HU",
-      "iso_639_1": "hu",
-      "name": "Magyar",
-      "english_name": "Hungarian",
-      "data": {
-        "homepage": "",
-        "overview": "Réges régen, egy távoli galaxisban kezdődött a nagy kaland, amikor Leia Organa hercegnő két fura robottal egy alig értékelhető hologramot küldött az egyetlen Jedi lovagnak, a remeteként élő Ben Kenobinak. Az idős jedi Luke Skywalker, Han Solo és szőrős vukija, a hatalmas Chewbacca társaságában útra kel, hogy kiszabadítsa a hercegnőt Darth Vader fogságából, és győzelemre vigye az igaz ügyet az egész Galaxisban.",
-        "runtime": 125,
-        "tagline": "Réges-régen, egy messzi-messzi galaxisban...",
-        "title": "Csillagok háborúja"
-      }
-    },
-    {
-      "iso_3166_1": "NL",
-      "iso_639_1": "nl",
-      "name": "Nederlands",
-      "english_name": "Dutch",
-      "data": {
-        "homepage": "",
-        "overview": "Luke Skywalker werkt op het land bij z'n oom en tante op de planeet Tatooine. Als zij door Keizerlijke troepen worden vermoord, sluit Luke zich aan bij de groep rebellen die vecht tegen de tirannie van de Keizer en de slechte Darth Vader. Luke, Princess Leia, Han Solo en de andere rebellen doen een poging de Death Star, het nieuwe wapen van de Keizer, te vernietigen.",
-        "runtime": 118,
-        "tagline": "",
-        "title": "Star Wars: Episode IV - A New Hope"
-      }
-    },
-    {
-      "iso_3166_1": "PL",
-      "iso_639_1": "pl",
-      "name": "Polski",
-      "english_name": "Polish",
-      "data": {
-        "homepage": "",
-        "overview": "Dawno, dawno temu w odległej galaktyce... Rycerze Jedi zostali wytępieni, a Imperium żelazną ręka sprawuje rządy nad całą galaktyką. Mała grupa Rebeliantów podejmuje walkę kradnąc tajne plany najpotężniejszej broni Imperium - tzw. Gwiazdy Śmierci. Najbardziej zaufany sługa Imperatora - Darth Vader musi odzyskać plany i odnaleźć ukrytą bazę buntowników. Księżniczka Leia - wzięta do niewoli przywódczyni Rebeliantów, wysyła sygnał z wezwaniem pomocy, który zostaje przechwycony przez zwykłego chłopaka z farmy - Luke'a Skywalkera. Wychodząc naprzeciw swemu przeznaczeniu, Luke podejmuje wyzwanie i rusza na ratunek Księżniczce chcąc pomóc Rebeliantom w obaleniu Imperium. W misji pomagają mu niezwykli sojusznicy - mądry Obi-Wan Kenobi, nieco arogancki gwiezdny awanturnik Han Solo i jego lojalny towarzysz Chewbacca a także dwa droidy R2-D2 i C-3PO.",
-        "runtime": 121,
-        "tagline": "Dawno, dawno temu w odległej galaktyce...",
-        "title": "Gwiezdne wojny: część IV - Nowa nadzieja"
-      }
-    },
-    {
-      "iso_3166_1": "JP",
-      "iso_639_1": "ja",
-      "name": "日本語",
-      "english_name": "Japanese",
-      "data": {
-        "homepage": "",
-        "overview": "遠い昔、遙か彼方の銀河では帝国軍の独裁体制が敷かれていた。反乱の機会をうかがう惑星アルデラーンのレイア姫は暗黒卿ダース・ベイダーに捕らえられるが、その寸前に二体のドロイドR2-D2とC-3POを砂漠の惑星タトゥイーンに送り込む。偶然にもそのドロイドを手に入れた青年ルークは、ジェダイの騎士団の一人オビ＝ワン・ケノービや密輸船ミレニアム・ファルコンの船長ハン・ソロたちと共に、反乱軍と帝国軍の闘いに巻き込まれていく。",
-        "runtime": 121,
-        "tagline": "",
-        "title": "スター・ウォーズ エピソード４／新たなる希望"
-      }
-    },
-    {
-      "iso_3166_1": "DK",
-      "iso_639_1": "da",
-      "name": "Dansk",
-      "english_name": "Danish",
-      "data": {
-        "homepage": "",
-        "overview": "Imperiet hersker over galaksen og Jedi-ordenen synes udslettet. Oprørerne har stjålet planerne til Imperiets nye, hemmelige våben, men bliver opsnappet af den ubarmhjertige Darth Vader og prinsesse Leia bliver tilfangetaget. Ved et tilfælde ender planerne hos den unge Luke Skywalker, som sammen med den gamle Ben Kenobi, smugleren Han Solo og hans makker Chewbacca, må befri prinsessen og ødelægge Dødsstjernen.",
-        "runtime": 125,
-        "tagline": "For lang tid siden i en galakse langt, langt væk ...",
-        "title": "Et nyt håb"
-      }
-    },
-    {
-      "iso_3166_1": "SE",
-      "iso_639_1": "sv",
-      "name": "svenska",
-      "english_name": "Swedish",
-      "data": {
-        "homepage": "",
-        "overview": "För länge sedan i en galax långt, långt borta... Prinsessan Leia tas till fånga av det ondskefulla Rymdimperiet. I ett försök att befria den sköna prinsessan slår sig den unge Luke Skywalker ihop med Han Solo. Tillsammans med de båda robotarna R2-D2 och C-3PO inleder de kampen för att befria Galaxen.",
-        "runtime": 121,
-        "tagline": "",
-        "title": "Stjärnornas krig"
-      }
-    },
-    {
-      "iso_3166_1": "NO",
-      "iso_639_1": "no",
-      "name": "Norsk",
-      "english_name": "Norwegian",
-      "data": {
-        "homepage": "",
-        "overview": "Jediridderne er tilintetgjort og Imperiet hersker over galaksen med jernhånd. En liten gruppe opprørere har våget å kjempe tilbake ved å stjele de hemmelige planene for Imperiets mektigste våpen, Dødsstjernen. Keiserens med betrodde tjener, Darth Vader, må finne planene og lokalisere opprørernes gjemmested. Prinsesse Leia, som er opprørsleder, sender ut et nødsignal som blir snappet opp av en enkel gårdsgutt, Luke Skywalker. Luke tar oppfordringen om å redde prinsessen og å hjelpe opprørerne med å styrte Imperiet, sammen med de uforglemmelige allierte, som den vise Obi-Wan Kenobi, den hovne Han Solo, den lojale Chewbacca, og robotene R2-D2 og C-3PO.",
-        "runtime": 121,
-        "tagline": "",
-        "title": "Star Wars: Episode IV - A New Hope"
-      }
-    },
-    {
-      "iso_3166_1": "NO",
-      "iso_639_1": "nb",
-      "name": "Bokmål",
-      "english_name": "Norwegian Bokmål",
-      "data": {
-        "homepage": "",
-        "overview": "",
-        "runtime": 0,
-        "tagline": "",
-        "title": ""
-      }
-    },
-    {
-      "iso_3166_1": "IL",
-      "iso_639_1": "he",
-      "name": "עִבְרִית",
-      "english_name": "Hebrew",
-      "data": {
-        "homepage": "",
-        "overview": "סיפורנו מתחיל על ספינת מורדים שמתאכסנת על ספינתו של העריץ, דארת' ויידר. העלילה נמשכת בחיים פשוטים של בחור רגיל, לוק סקייווקר, כשהוא פוגש חברים חדשים בניסיון להציל את מנהיגת המורדים הנסיכה ליאה, מידיי האימפריה. המסקנה מסתיימת בכך שהמורדים, כולל לוק סקייווקר שמומחה בלטוס עושים מתקפה על הנשק המאיים והחזק ביותר, כוכב המוות.",
-        "runtime": 0,
-        "tagline": "לפני הרבה הרבה זמן... בגלקסיה רחוקה רחוקה...",
-        "title": "מלחמת הכוכבים 4: תקווה חדשה"
-      }
-    },
-    {
-      "iso_3166_1": "BG",
-      "iso_639_1": "bg",
-      "name": "български език",
-      "english_name": "Bulgarian",
-      "data": {
-        "homepage": "",
-        "overview": "Люк Скайуокър обединява сили с рицар джедай, самоуверен пилот, ууки и два дроида, за да спаси галактиката от разрушаващата светове бойна станция на Империята, като същевременно се опитва да спаси принцеса Лея от мистериозния Дарт Вейдър.",
-        "runtime": 121,
-        "tagline": "Преди много години, в една далечна галактика…",
-        "title": "Междузвездни войни: Епизод IV - Нова надежда"
-      }
-    },
-    {
-      "iso_3166_1": "RS",
-      "iso_639_1": "sr",
-      "name": "Srpski",
-      "english_name": "Serbian",
-      "data": {
-        "homepage": "",
-        "overview": "Четврта епизода саге Ратови звезда враћа се на напуштену планету Татуин. Млади Лук Скајвокер открива своју судбину када га током потраге за изгубљеним роботом спашава усамљени џедај Оби-Ван Кеноби. Док галаксијом бесни рат, а побуњеничке снаге се боре против злог Галактичког царства, Лук и Оби-Ван добијају помоћ важног пилота по имену Хан Соло. Прикључује им се необични роботски дуо Р2-Д2 и Ц-3ПО, те се овај тим упућује да спаси принцезу Леу, предводницу побуњеника, с мисијом да униште најважније оружје Царства.",
-        "runtime": 121,
-        "tagline": "",
-        "title": "Ратови звезда: Eпизода IV - Нова нада"
-      }
-    },
-    {
-      "iso_3166_1": "ES",
-      "iso_639_1": "ca",
-      "name": "Català",
-      "english_name": "Catalan",
-      "data": {
-        "homepage": "",
-        "overview": "Fa molt de temps, en una galàxia molt, molt llunyana... un emperador malvat governa amb ma de ferro, recolzat per en Darth Vader, el seu acòlit més fidel i sinistre. Les restes de l'antiga república galàctica són a punt d'extingir-se, però encara queda una esperança si la Princesa Leia aconsegueix cridar l'atenció de l'antic cavaller Jedi, Obi-Wan Kenobi, i fa que se li uneixi en la lluita.",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Star Wars. Episodi IV: Una nova esperança"
-      }
-    },
-    {
-      "iso_3166_1": "RO",
-      "iso_639_1": "ro",
-      "name": "Română",
-      "english_name": "Romanian",
-      "data": {
-        "homepage": "",
-        "overview": "Han Solo se vede prins într-o misiune de salvare, strâmtorat fiind de o datorie către Jabba, binecunoscutul „mafiot”. În urma salvării prințesei Leia el este prins în hățișurile Rebeliunii și ajunge încet să o ajute în a distruge fabuloasa Stea a Morții. Leia este prințesă și spion de elită a Rebeliunii, ea fiind un personaj principal în întreaga trilogie. Tânărul Luke Skywalker este cel ce se dovedește a fi ceea ce Obi Wan Kenobi a căutat",
-        "runtime": 0,
-        "tagline": "Acum mult timp într-o galaxie foarte îndepărtată...",
-        "title": "Războiul stelelor - Episodul IV: O nouă speranță"
-      }
-    },
-    {
-      "iso_3166_1": "BR",
-      "iso_639_1": "pt",
-      "name": "Português",
-      "english_name": "Portuguese",
-      "data": {
-        "homepage": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
-        "overview": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
-        "runtime": 121,
-        "tagline": "Que a força esteja com você!",
-        "title": "Guerra nas Estrelas"
-      }
-    },
-    {
-      "iso_3166_1": "MX",
-      "iso_639_1": "es",
-      "name": "Español",
-      "english_name": "Spanish",
-      "data": {
-        "homepage": "http://latino.starwars.com/",
-        "overview": "La Princesa Leia Organa ha sido capturada por Darth Vader por tener los planos de la Estrella de la muerte, la temida estación espacial del imperio. Dos androides escapan al planeta Tatooine, ambos son comprados por Luke Skywalker, un joven granjero, este se entera de un mensaje que ella, uno de ellos y busca a Obi Wan Kenobi, un antiguo caballero Jedi que lo lleva a conocer sobre la fuerza y como utilizarla. Contratan a Han Solo, un foragido espacial que tiene al Halcón Milenario, una gran nave capaz de recorrer a la velocidad de la luz con la intención de rescatar a la princesa y luego organizar una batalla para destruir a la Estrella de la muerte.",
-        "runtime": 121,
-        "tagline": "Hace mucho tiempo, en una galaxia muy lejana....",
-        "title": "La guerra de las galaxias"
-      }
-    },
-    {
-      "iso_3166_1": "TW",
-      "iso_639_1": "zh",
-      "name": "普通话",
-      "english_name": "Mandarin",
-      "data": {
-        "homepage": "",
-        "overview": "遙遠星係發生叛亂，銀河共和國被推翻，奧爾德蘭星的莉亞公主（卡里•費甚爾Carrie Fisher飾）領導抵抗組織對抗銀河帝國，卻不幸被銀河帝國的維德勳爵（大衛•普勞斯David Prowse飾）所俘。機器人R2-D2攜銀河帝國新武器“死星”的結構圖與同伴翻譯機器人C-3PO逃至塔圖因星，途中被加瓦人抓住賣給青年盧克•天行者（馬克•哈米爾Mark Hamill飾）的叔父。在盧克的幫助下，眾人陰錯陽差找到了隱居的絕地武士歐比-旺•肯諾比（亞歷克•吉尼斯Alec Guinness飾）。歐比-旺交給盧克絕地之道，並帶盧克與兩機器人到港口城市茅斯伊斯壘，僱傭走私者韓•索羅（哈里森•福特飾）的千年隼飛船前往奧爾德蘭……",
-        "runtime": 0,
-        "tagline": "",
-        "title": "星際大戰四部曲：曙光乍現"
-      }
-    },
-    {
-      "iso_3166_1": "UA",
-      "iso_639_1": "uk",
-      "name": "Український",
-      "english_name": "Ukrainian",
-      "data": {
-        "homepage": "",
-        "overview": "Татуїн. Планета-пустеля. Вже постарілий лицар Джедай Обі-Ван Кенобі рятує молодого Люка Скайвокера, коли той намагається відшукати зниклого дроїда. З цієї миті Люк усвідомлює своє дійсне призначення: він один з лицарів-Джедаїв. Тоді як громадянська війна охопила галактику, а війська повстанців ведуть бої проти злих сил Імператора, до Люка і Обі-Вану приєднується відчайдушний пілот-найманець Хан Соло, і у супроводі двох дроїдов, R2D2 і C-3PO, цей незвичайний загін вирушає на пошуки предводителя повстанців - принцеси Леї. Героїв чекає відчайдушна сутичка із страхітливим Дартом Вейдером - правою рукою Імператора та його секретною зброєю - «Зіркою Смерті»...",
-        "runtime": 124,
-        "tagline": "Давним-давно, в далекій, далекій галактиці...",
-        "title": "Зоряні війни: Епізод 4 — Нова надія"
-      }
-    },
-    {
-      "iso_3166_1": "HR",
-      "iso_639_1": "hr",
-      "name": "Hrvatski",
-      "english_name": "Croatian",
-      "data": {
-        "homepage": "",
-        "overview": "Nekoć davno, u veoma dalekoj galaksiji… Princeza Leia biva oteta od strane zlih imperijskih sila koje žele ugasiti pobunjenički pokret protiv Galaktičkog carstva. Farmer Luke Skywalker i kapetan Han Solo moraju se udružiti, zajedno sa simpatičnim robotima R2-D2 i C-3PO, kako bi spasili lijepu princezu i vratili pravdu u galaksiju.",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Ratovi zvijezda: Epizoda IV - Nova nada"
-      }
-    },
-    {
-      "iso_3166_1": "CA",
-      "iso_639_1": "fr",
-      "name": "Français",
-      "english_name": "French",
-      "data": {
-        "homepage": "",
-        "overview": "Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l'Etoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan Kenobi, devenu ermite au coeur des montagnes désertiques de Tatooine...",
-        "runtime": 121,
-        "tagline": "Que la force soit avec toi!",
-        "title": "La guerre des étoiles"
-      }
-    },
-    {
-      "iso_3166_1": "IR",
-      "iso_639_1": "fa",
-      "name": "فارسی",
-      "english_name": "Persian",
-      "data": {
-        "homepage": "",
-        "overview": "در سال‌هایی خیلی دور در کهکشانی خیلی دور آزادی خواهان در حال مبارزه با امپراتوری دیکتاتوری فضایی هستند. در همین فاصله «پرنسس لیا» (فیشر) اسیر معاون امپراتور می‌شود که «دارت ویدر» نام دارد. لیا مخفیانه ۲ روبات را همراه با پیامی به سیاره‌ی تاتوین می‌فرستد و این ۲ روبات به دست پسری به اسم «لوک» (همیل) می افتند و لوک همراه با «اوبی وان کنوبی» و ۲ روبات، و خلبانی شیاد به اسم «هان سولو» (هریسون فورد) برای نجات لیا اقدام می‌کنند...",
-        "runtime": 0,
-        "tagline": "",
-        "title": "جنگ ستارگان: قسمت چهارم - امیدی تازه"
-      }
-    },
-    {
-      "iso_3166_1": "TH",
-      "iso_639_1": "th",
-      "name": "ภาษาไทย",
-      "english_name": "Thai",
-      "data": {
-        "homepage": "",
-        "overview": "ภาพยนตร์เดินเรื่องใน \"กาลครั้งหนึ่งนานมาแล้ว ณ กาแลกซี อันไกลแสนไกล\" เล่าเรื่องของนักต่อสู้เพื่ออิสรภาพเรียกตัวเองว่า \"พันธมิตรกบฏ\" ที่วางแผนทำลายสถานีอวกาศดาวมรณะที่ทรงพลัง ซึ่งสร้างโดยจักรวรรดิกาแลกติกที่ชั่วร้าย ทำให้ชีวิตของเด็กหนุ่มชาวไร่ ลุค สกายวอล์คเกอร์ เปลี่ยนแปลงไปตลอดกาล เมื่อเขาบังเอิญได้เป็นเจ้าของหุ่นยนต์สองตนที่เก็บข้อมูลแผนผังดาวมรณะเอาไว้ เมื่อจักรวรรดิออกตามหาหุ่นยนต์ทั้งสองตนอย่างโหดร้าย ลุคจึงตัดสินใจออกเดินทางร่วมกับอาจารย์เจไดโอบีวัน เคโนบี เพื่อไปช่วยเหลือเจ้าของของหุ่นยนต์ทั้งสองคือเจ้าหญิงเลอาและช่วยกอบกู้กาแลกซีเอาไว้",
-        "runtime": 0,
-        "tagline": "",
-        "title": "สตาร์ วอร์ส เอพพิโซด 4: ความหวังใหม่"
-      }
-    },
-    {
-      "iso_3166_1": "LT",
-      "iso_639_1": "lt",
-      "name": "Lietuvių",
-      "english_name": "Lithuanian",
-      "data": {
-        "homepage": "",
-        "overview": "Pirmoji epopėjos dalis pasakoja apie berniuką - Luką Skaivokerį, gyvenantį drauge su dėde ir teta nedidelėje fermoje Tatunio planetoje. Berniukas trokšta mokytis, tačiau dėdei jis reikalingas padėti tvarkyti ūkį. Tuo metu galaktiką užvaldo žiaurus tironas, galintis sunaikinti visas planetas. Jam pasipriešina princesė Lėja. Ji išsiunčia pasiuntinį su robotu androidu į valdovo kosminį laivą. Čia reikia surasti \"Mirties žvaigždę\", galinčią sunaikinti galaktiką. Tatunio dykumoje sutinka Luką...",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Žvaigždžių karai: Epizodas IV - Nauja viltis"
-      }
-    },
-    {
-      "iso_3166_1": "LV",
-      "iso_639_1": "lv",
-      "name": "Latviešu",
-      "english_name": "Latvian",
-      "data": {
-        "homepage": "",
-        "overview": "Princess Leia tiek notverts un noturēts par ķīlnieku no ļaunajiem impērijas spēkiem, cenšoties pārņemt galaktikas impēriju. Aizrautīgs Luke Skywalker un brašā kapteiņa Han Solo komanda kopā ar mīlīgo robotu duetu R2-D2 un C-3PO, lai glābtu skaisto princesi un atjaunotu mieru un taisnīgumu impērijā.",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Zvaigžņu kari: Jaunā cerība"
-      }
-    },
-    {
-      "iso_3166_1": "GE",
-      "iso_639_1": "ka",
-      "name": "ქართული",
-      "english_name": "Georgian",
-      "data": {
-        "homepage": "",
-        "overview": "",
-        "runtime": 0,
-        "tagline": "",
-        "title": "ვარსკვლავური ომები: ახალი იმედი"
-      }
-    },
-    {
-      "iso_3166_1": "ID",
-      "iso_639_1": "id",
-      "name": "Bahasa indonesia",
-      "english_name": "Indonesian",
-      "data": {
-        "homepage": "",
-        "overview": "Putri Leia ditangkap dan disandera oleh pasukan Kekaisaran jahat dalam upaya mereka untuk mengambil alih Kekaisaran galaksi. Venturesome Luke Skywalker dan kapten gagah tim Han Solo bersama dengan duo robot yang dicintai R2-D2 dan C-3PO untuk menyelamatkan putri cantik dan memulihkan kedamaian dan keadilan di Kekaisaran.",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Star Wars: Episode IV - A New Hope"
-      }
-    },
-    {
-      "iso_3166_1": "HK",
-      "iso_639_1": "zh",
-      "name": "普通话",
-      "english_name": "Mandarin",
-      "data": {
-        "homepage": "",
-        "overview": "年青勇士Luke Skywalker因在尋找失蹤的機械人遇險時時被武士Obi-Wan所救，驚覺自己肩負了維護宇宙和平的責任。此時正值銀河局勢動盪不安，得Han Solo隊長相助下，Han Solo與Obi-Wan合力救出因偷取摧毀死亡星的秘密方程式而失手被捕的公主Leia，他們決心要鎮壓銀河帝國叛亂的危機及對抗邪惡的黑武士。",
-        "runtime": 125,
-        "tagline": "",
-        "title": "星球大戰：新的希望"
-      }
-    },
-    {
-      "iso_3166_1": "SI",
-      "iso_639_1": "sl",
-      "name": "Slovenščina",
-      "english_name": "Slovenian",
-      "data": {
-        "homepage": "",
-        "overview": "",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Vojna zvezd: Epizoda IV - Novo upanje"
-      }
-    },
-    {
-      "iso_3166_1": "VN",
-      "iso_639_1": "vi",
-      "name": "Tiếng Việt",
-      "english_name": "Vietnamese",
-      "data": {
-        "homepage": "",
-        "overview": "Luke Skywalker sống trên một trang trại ở hành tinh Tatooine bụi bặm cùng với cô và chú của anh. Luke là một thanh niên gan dạ và rất nóng lòng được trở thành một chiến binh nổi lọan. Lúc này, tên Darth Vader tàn bạo đã thôn tính cả thiên hà và đang hoàn thành một vũ khí hủy diệt khủng khiếp, Death Star. Công chúa Leia, người dẫn đầu phong trào nổi lọan, biết được kế họach này và tìm cách báo cho Obi-Wan Kenobi, một nhà tu hành già nua sống ẩn dật có sức mạnh phi thường. Vô tình tìm thấy mẩu tin báo nguy của công chúa dấu trong người máy R2D2, Luke lên đường tìm kiếm Obi-Wan Kenobi để hợp sức cùng nhau cứu công chúa cũng như giải thóat cả thiên hà...",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Star Wars 4: Niềm Hy Vọng Mới"
-      }
-    },
-    {
-      "iso_3166_1": "SA",
-      "iso_639_1": "ar",
-      "name": "العربية",
-      "english_name": "Arabic",
-      "data": {
-        "homepage": "",
-        "overview": "تم القبض على الأميرة ليا واحتجازها كرهينة من قبل القوات الإمبراطورية الشريرة في جهودها للسيطرة على الإمبراطورية المجرية. فريق المغامر Luke Skywalker والقبطان المبهر Han Solo مع الثنائي الروبوت المحبوب R2-D2 و C-3PO لإنقاذ الأميرة الجميلة واستعادة السلام والعدالة في الإمبراطورية.",
-        "runtime": 0,
-        "tagline": "منذ زمن بعيد في مجرة بعيدة ، بعيدة ...",
-        "title": ""
-      }
-    },
-    {
-      "iso_3166_1": "ES",
-      "iso_639_1": "eu",
-      "name": "euskera",
-      "english_name": "Basque",
-      "data": {
-        "homepage": "",
-        "overview": "Luke Skywalker gazteak (Mark Hamill) indarrak biltzen ditu zaldun Jedi batekin (Alec Guiness), pilotu harro batekin (Harrison Ford), giza itxurako tantai iletsu batekin eta bi androiderekin, unibertsoa salbatzeko Inperioaren guda-estazio boteretsuaren mehatxutik. Horrekin batera, Leia printzesa (Carrie Fisher) aurkitu eta askatu beharko dute Darth Vader gaiztoaren atzaparretatik.",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Izarretako Gerra IV Itxaropen Berria"
-      }
-    },
-    {
-      "iso_3166_1": "LA",
-      "iso_639_1": "la",
-      "name": "Latin",
-      "english_name": "Latin",
-      "data": {
-        "homepage": "",
-        "overview": "",
-        "runtime": 0,
-        "tagline": "",
-        "title": ""
-      }
-    },
-    {
-      "iso_3166_1": "FY",
-      "iso_639_1": "fy",
-      "name": "",
-      "english_name": "Frisian",
-      "data": {
-        "homepage": "",
-        "overview": "",
-        "runtime": 0,
-        "tagline": "",
-        "title": ""
-      }
-    },
-    {
-      "iso_3166_1": "EE",
-      "iso_639_1": "et",
-      "name": "Eesti",
-      "english_name": "Estonian",
-      "data": {
-        "homepage": "",
-        "overview": "Noor ja hakkaja poiss Luke Skywalker elab räpasel Tatooine planeedil oma onu ja tädi juures. Ta tahab minna Akadeemiasse ning saada Mässajate võitlejaks, kuid onu vajab teda viljakoristuse jaoks. Samal ajal võitlevad Mässajad eesotsas Printsess Leiaga kurja Impeeriumi vastu. Nad ründavad Impeeriumi võimsaimat relva Surmatähte - võimast komeedi moodi kosmoselaeva, mida juhivad Moff Tarkin ja Darth Vader. Kui Impeeriumi võitlejad Luke'i onu ja tädi tapavad, saab ta Leialt abipalve, kus palub koos targa miniroboti R2-D2'ga leida üles üks viimaseid elus olevaid Jedi rüütleid Obi-Wan Kenobi. Oma teel aitavad teda palgasõdur Han Solo ja tema karvane abiline Chewbacca. Püüdes printsessi ja tema liitlasi vabastada, satuvad nad koos ohtlikkesse olukordadesse, mis võivad kogu galaktika saatuse igaveseks muuta",
-        "runtime": 0,
-        "tagline": "",
-        "title": "Star Wars: Osa IV - Uus lootus"
-      }
-    }
-  ]
+    "id": 11,
+    "translations": [
+        {
+            "iso_3166_1": "US",
+            "iso_639_1": "en",
+            "name": "English",
+            "english_name": "English",
+            "data": {
+                "homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+                "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+                "runtime": 121,
+                "tagline": "A long time ago in a galaxy far, far away...",
+                "title": ""
+            }
+        },
+        {
+            "iso_3166_1": "DE",
+            "iso_639_1": "de",
+            "name": "Deutsch",
+            "english_name": "German",
+            "data": {
+                "homepage": "",
+                "overview": "Seit der Vernichtung der Jedi-Ritter steht die Galaxie unter der grausamen Herrschaft des Imperiums. Nur eine kleine Gruppe von Rebellen, angeführt von der schönen Prinzessin Leia, widersetzt sich der dunklen Macht. Als es ihnen gelingt, die geheimen Baupläne für den gefährlichen Todesstern zu entwenden, gerät das Imperium in Aufruhr. Durch Zufall gelangen die Pläne ausgerechnet in die Hände des Farmerjungen Luke Skywalker, der spürt, dass er sein bisheriges Leben hinter sich lassen muss. Gemeinsam mit dem weisen Obi-Wan Kenobi, den Weltraumabenteurern Han Solo und Chewbacca sowie den Droiden R2-D2 und C-3PO nimmt er den Kampf gegen das mächtige Imperium auf. Es beginnt ein Wettlauf gegen die Zeit, denn der Kampfstern kann nur vor seiner Fertigstellung zerstört werden...",
+                "runtime": 121,
+                "tagline": "Eine neue Hoffnung.",
+                "title": "Krieg der Sterne"
+            }
+        },
+        {
+            "iso_3166_1": "FR",
+            "iso_639_1": "fr",
+            "name": "Français",
+            "english_name": "French",
+            "data": {
+                "homepage": "",
+                "overview": "Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l’Étoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan Kenobi, devenu ermite au cœur des montagnes désertiques de Tatooine...",
+                "runtime": 121,
+                "tagline": "Il y a bien longtemps dans une galaxie très lointaine…",
+                "title": "La Guerre des étoiles"
+            }
+        },
+        {
+            "iso_3166_1": "IT",
+            "iso_639_1": "it",
+            "name": "Italiano",
+            "english_name": "Italian",
+            "data": {
+                "homepage": "http://starwars.com/explore/the-movies/episode-iv/",
+                "overview": "In un lontano Impero Galattico è in atto una rivolta contro i suoi dispotici capi, tra i quali il più cattivo è Lord Darth Vader. Prima di cadere nelle sue mani, la principessa Leila Organa, rappresentante dei ribelli, riesce ad affidare a due robot i piani della \"Morte Nera\" - la potentissima base spaziale di Darth Vader, capace di disintegrare un intero pianeta - e un appello al vecchio generale Obi-Wan Kenobi, che abita sul pianeta Tatooine, perché accorra in aiuto dei rivoltosi. Il messaggio viene raccolto dal giovane Luke Skywalker che, rintracciato Obi Wan Kenobi, parte con lui in soccorso della principessa a bordo di un'astronave guidata dal mercenario Han Solo e dal suo secondo Chewbacca.",
+                "runtime": 121,
+                "tagline": "Tanto tempo fa, in una galassia lontana lontana...",
+                "title": "Guerre stellari"
+            }
+        },
+        {
+            "iso_3166_1": "SK",
+            "iso_639_1": "sk",
+            "name": "Slovenčina",
+            "english_name": "Slovak",
+            "data": {
+                "homepage": "http://starwars.com/",
+                "overview": "Rytierov Jedi vyhladili vojaci Impéria, ktoré teraz vládne galaxii pevnou rukou. V každej diktatúre sa však nájdu jedinci, ktorí chcú presadiť demokraciu. Malá skupina povstalcov sa odváži vzdorovať a ukradne plány k najmocnejšej zbrani Impéria, Hviezde smrti. Imperátorov najvernejší služobník, temný lord Darth Vader, musí nájsť nielen plány, ale aj skrytú základňu povstalcov. Správa o princeznej Leie a vodcovi rebelov sa dostane až k obyčajnému mladíkovi Lukeovi Skylwalkerovi, ktorí pracuje na farme svojho strýka a tety . Luke sa nakoniec rozhodne riadiť svojím osudom, zachráni Leiu a pomáha povstalcom zvrhnúť moc Impéria spoločne so svojimi nezabudnuteľnými spojencami Obi-Wan Kenobim, domýšľavým Hanom Solom, lojálnym Chewbaccom a droidmi R2-D2 a C3PO...",
+                "runtime": 0,
+                "tagline": "Kedysi dávno v preďalekej galaxii...",
+                "title": "Star Wars: Epizóda IV - Nová nádej"
+            }
+        },
+        {
+            "iso_3166_1": "FI",
+            "iso_639_1": "fi",
+            "name": "suomi",
+            "english_name": "Finnish",
+            "data": {
+                "homepage": "",
+                "overview": "Jedi-ritarit on hävitetty ja Keisari hallitsee galaksia rautaisella kädellä. Pieni kapinallisten ryhmä rohkenee tehdä vastarintaa ja varastaa Keisarin mahtavimman aseen, taisteluasema Kuolemantähden salaiset kaaviot. Keisarin uskollisimman palvelijan, Darth Vaderin, tehtävänä on löytää kaaviot ja paikantaa kapinallisten salainen tukikohta. Kapinallisten vangittu johtaja, prinsessa Leia onnistuu lähettämään avunpyyntösignaalin, joka päätyy vaatimattoman maalaispojan, Luke Skywalkerin käsiin. Uhmaten kohtaloaan Luke vastaa haasteeseen ja lähtee pelastamaan prinsessaa ja auttamaan kapinallisia taistelussa Keisaria vastaan. Seuranaan Lukella on unohtumattomat liittolaiset: viisas Obi-Wan Kenobi, kukkoileva Han Solo, uskollinen Chewbacca sekä droididuo R2-D2 ja C-3PO.",
+                "runtime": 121,
+                "tagline": "Kauan sitten, kaukaisessa galaksissa...",
+                "title": "Tähtien sota"
+            }
+        },
+        {
+            "iso_3166_1": "GR",
+            "iso_639_1": "el",
+            "name": "ελληνικά",
+            "english_name": "Greek",
+            "data": {
+                "homepage": "http://www.starwars.com",
+                "overview": "Ο Λουκ Σκαϊγουόκερ ζει με την θετή θεία και τον θείο του σε μια φάρμα στο Τατούιν. Θέλει απεγνωσμένα να φύγει από τον πλανήτη του και να γίνει μέλος της Ακαδημίας, όπως και οι φίλοι του, αλλά ο θείος του τον χρειάζεται για την επόμενη συγκομιδή. Εντωμεταξύ, ένας ύπουλος αυτοκράτορας έχει καταλάβει τον γαλαξία και έχει κατασκευάσει ένα φοβερό «Death Star» ικανό να καταστρέψει ολόκληρους πλανήτες. Η πριγκίπισσα Λέα, αρχηγός του αντιστασιακού κινήματος, καταφέρνει να αποκτήσει σχέδια του Death Star και τα τοποθετεί στον R2-D2, ένα ανδροειδές, και τον στέλνει να βρει τον Όμπι-Ουάν Κενόμπι. Πριν τον βρει, καταλήγει στην φάρμα του Σκαϊγουόκερ με τον φίλο του C-3PO. Ο Λουκ τους ακολουθεί και τελικά συναντούν τον Όμπι-Ουάν. Μαζί προσπαθούν όλοι να καταστρέψουν το «Death Star».",
+                "runtime": 121,
+                "tagline": "Πριν από πολύ καιρό σε ένα γαλαξία πολύ πολύ μακριά...",
+                "title": "Star Wars: Επεισόδιο IV – Μια Νέα Ελπίδα"
+            }
+        },
+        {
+            "iso_3166_1": "RU",
+            "iso_639_1": "ru",
+            "name": "Pусский",
+            "english_name": "Russian",
+            "data": {
+                "homepage": "",
+                "overview": "Татуин. Планета-пустыня. Уже постаревший рыцарь Джедай Оби Ван Кеноби спасает молодого Люка Скайуокера, когда тот пытается отыскать пропавшего дроида. С этого момента Люк осознает свое истинное назначение: он один из рыцарей Джедай. В то время как гражданская война охватила галактику, а войска повстанцев ведут бои против сил злого Императора, к Люку и Оби Вану присоединяется отчаянный пилот-наемник Хан Соло, и в сопровождении двух дроидов, R2D2 и C-3PO, этот необычный отряд отправляется на поиски предводителя повстанцев — принцессы Леи.",
+                "runtime": 121,
+                "tagline": "",
+                "title": "Звёздные войны: Эпизод 4 - Новая надежда"
+            }
+        },
+        {
+            "iso_3166_1": "CN",
+            "iso_639_1": "zh",
+            "name": "普通话",
+            "english_name": "Mandarin",
+            "data": {
+                "homepage": "",
+                "overview": "邪恶的银河帝国控制了整个银河系，各星系居民饱受暴政之苦，反叛军仍旧坚持不懈地与之对抗。奥尔德兰行星的莱娅公主（凯莉·费舍尔 饰）得到情报人员窃取的帝国秘密武器——死星设计图，却在达斯·维德（大卫·普劳斯 饰）的穷追下被俘，但她已把数据输入机器人 R2-D2 的计算机中。机器人 R2-D2 和 C-3PO 逃亡到一个遥远的星球塔图因。年轻人卢克（马克·哈米尔 饰）发现了 R2-D2 中的求救信息，并找到在反抗帝国的战斗中幸存的绝地武士欧比旺·克诺比（亚历克·吉尼斯 饰）。他们一行在走私船长汉·索罗（哈里森·福特 饰）的帮助下，营救出了公主。卢克在克诺比所教给他的“原力”的帮助下，摧毁了死星。经过战斗的洗礼，卢克成为一名出色的自由战士。",
+                "runtime": 0,
+                "tagline": "很久很久以前，在遥远的银河系……",
+                "title": "星球大战4：新希望"
+            }
+        },
+        {
+            "iso_3166_1": "ES",
+            "iso_639_1": "es",
+            "name": "Español",
+            "english_name": "Spanish",
+            "data": {
+                "homepage": "",
+                "overview": "La princesa Leia, líder del movimiento rebelde que desea reinstaurar la República en la galaxia en los tiempos ominosos del Imperio, es capturada por las malévolas Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente más fiel del emperador. El intrépido Luke Skywalker, ayudado por Han Solo, capitán de la nave espacial \"El Halcón Milenario\", y los androides, R2D2 y C3PO, serán los encargados de luchar contra el enemigo y rescatar a la princesa para volver a instaurar la justicia en el seno de la Galaxia.",
+                "runtime": 121,
+                "tagline": "Hace mucho tiempo, en una galaxia muy lejana...",
+                "title": "La guerra de las galaxias"
+            }
+        },
+        {
+            "iso_3166_1": "TR",
+            "iso_639_1": "tr",
+            "name": "Türkçe",
+            "english_name": "Turkish",
+            "data": {
+                "homepage": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+                "overview": "Yıldız Savaşları: Yeni Umut'ta Luke Skywalker, galaksiyi değiştirecek bir yolculuğa çıkar. Luke, İmparatorluğun kuruluşundan 19 yıl sonra çöl gezegen Tatooine'de yıllardır tek başına yaşayan Obi-Wan Kenobi ile karşılaşınca Asiler İttifakı mücadelesinin içine çekilir. Obi-Wan, Luke'u Jedi olarak eğitmeye başlarken Luke da güzel Asi Prenses Leia'yı Darth Vader ve kötü İmparatorluğun pençesinden kurtarmak için Obi-Wan ile zorlu bir göreve girişir.",
+                "runtime": 125,
+                "tagline": "",
+                "title": "Yıldız Savaşları: Yeni Umut"
+            }
+        },
+        {
+            "iso_3166_1": "PT",
+            "iso_639_1": "pt",
+            "name": "Português",
+            "english_name": "Portuguese",
+            "data": {
+                "homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+                "overview": "Luke Skywalker inicia uma jornada que irá mudar a galáxia. Dezanove anos após a formação do Império, Luke é atirado para a luta da Aliança Rebelde quando conhece Obi-Wan Kenobi, que vive há anos em reclusão no planeta deserto Tatooine. Obi-Wan inicia Luke no treino de Jedi e juntos embarcam numa arrojada missão para salvar a bela líder rebelde, a Princesa Leia, das garras de Darth Vader e do malvado Império.",
+                "runtime": 121,
+                "tagline": "Que a Força esteja contigo",
+                "title": "Star Wars: Episódio IV - Uma Nova Esperança"
+            }
+        },
+        {
+            "iso_3166_1": "CZ",
+            "iso_639_1": "cs",
+            "name": "Český",
+            "english_name": "Czech",
+            "data": {
+                "homepage": "",
+                "overview": "Rytíři Jedi byli vyhlazeni a Impérium vládne galaxii pevnou rukou. Malá skupina povstalců se odváží vzdorovat a ukradne plány k nejmocnější zbrani Impéria, Hvězdě smrti. Imperátorův nejvěrnější služebník, Darth Vader, musí najít plány a skrytou základnu povstalců. Zpráva o princezně Leie a vůdci rebelů se dostane až k obyčejnému farmáři, Lukovi Skywalkerovi. Ten se řídí svým osudem, zachraňuje princeznu a pomáhá povstalcům svrhnout Impérium společně s takovými nezapomenutelnými spojenci jako: Obi-Wan Kenobi, domýšlivý Han Solo, loajální Chewbacca a droidové R2-D2 a C3PO.",
+                "runtime": 121,
+                "tagline": "Před dávnými časy ve vzdálené galaxii...",
+                "title": "Hvězdné války"
+            }
+        },
+        {
+            "iso_3166_1": "KR",
+            "iso_639_1": "ko",
+            "name": "한국어/조선말",
+            "english_name": "Korean",
+            "data": {
+                "homepage": "",
+                "overview": "공화국이 붕괴하고 제국이 수립된 뒤 20년, 제다이 기사단은 전멸하고 강력한 제국군의 횡포에 은하계는 공포에 휩싸여 있다. 그러던 중 공화국 재건을 노리는 반란군이 제국군의 비밀병기 데스스타 설계도를 훔쳐 달아나고 제국군은 이를 쫓는다. 하지만 결국 제국의 손에 붙잡히게 된 그들은 드로이드 R2-D2에 설계도를 넣어서 R2의 친구 C-3PO와 탈출시키는 데 성공하고, 두 드로이드 콤비는 타투인의 시골 마을에서 숙부와 함께 살고 있던 청년 루크 스카이워커에게 오게 되는데...",
+                "runtime": 121,
+                "tagline": "아주 오래 전 멀고 먼 은하계에서...",
+                "title": "스타워즈 에피소드 4: 새로운 희망"
+            }
+        },
+        {
+            "iso_3166_1": "HU",
+            "iso_639_1": "hu",
+            "name": "Magyar",
+            "english_name": "Hungarian",
+            "data": {
+                "homepage": "",
+                "overview": "Réges régen, egy távoli galaxisban kezdődött a nagy kaland, amikor Leia Organa hercegnő két fura robottal egy alig értékelhető hologramot küldött az egyetlen Jedi lovagnak, a remeteként élő Ben Kenobinak. Az idős jedi Luke Skywalker, Han Solo és szőrős vukija, a hatalmas Chewbacca társaságában útra kel, hogy kiszabadítsa a hercegnőt Darth Vader fogságából, és győzelemre vigye az igaz ügyet az egész Galaxisban.",
+                "runtime": 125,
+                "tagline": "Réges-régen, egy messzi-messzi galaxisban...",
+                "title": "Csillagok háborúja"
+            }
+        },
+        {
+            "iso_3166_1": "NL",
+            "iso_639_1": "nl",
+            "name": "Nederlands",
+            "english_name": "Dutch",
+            "data": {
+                "homepage": "",
+                "overview": "Luke Skywalker werkt op het land bij z'n oom en tante op de planeet Tatooine. Als zij door Keizerlijke troepen worden vermoord, sluit Luke zich aan bij de groep rebellen die vecht tegen de tirannie van de Keizer en de slechte Darth Vader. Luke, Princess Leia, Han Solo en de andere rebellen doen een poging de Death Star, het nieuwe wapen van de Keizer, te vernietigen.",
+                "runtime": 118,
+                "tagline": "",
+                "title": "Star Wars: Episode IV - A New Hope"
+            }
+        },
+        {
+            "iso_3166_1": "PL",
+            "iso_639_1": "pl",
+            "name": "Polski",
+            "english_name": "Polish",
+            "data": {
+                "homepage": "",
+                "overview": "Dawno, dawno temu w odległej galaktyce... Rycerze Jedi zostali wytępieni, a Imperium żelazną ręka sprawuje rządy nad całą galaktyką. Mała grupa Rebeliantów podejmuje walkę kradnąc tajne plany najpotężniejszej broni Imperium - tzw. Gwiazdy Śmierci. Najbardziej zaufany sługa Imperatora - Darth Vader musi odzyskać plany i odnaleźć ukrytą bazę buntowników. Księżniczka Leia - wzięta do niewoli przywódczyni Rebeliantów, wysyła sygnał z wezwaniem pomocy, który zostaje przechwycony przez zwykłego chłopaka z farmy - Luke'a Skywalkera. Wychodząc naprzeciw swemu przeznaczeniu, Luke podejmuje wyzwanie i rusza na ratunek Księżniczce chcąc pomóc Rebeliantom w obaleniu Imperium. W misji pomagają mu niezwykli sojusznicy - mądry Obi-Wan Kenobi, nieco arogancki gwiezdny awanturnik Han Solo i jego lojalny towarzysz Chewbacca a także dwa droidy R2-D2 i C-3PO.",
+                "runtime": 121,
+                "tagline": "Dawno, dawno temu w odległej galaktyce...",
+                "title": "Gwiezdne wojny: część IV - Nowa nadzieja"
+            }
+        },
+        {
+            "iso_3166_1": "JP",
+            "iso_639_1": "ja",
+            "name": "日本語",
+            "english_name": "Japanese",
+            "data": {
+                "homepage": "",
+                "overview": "遠い昔、遙か彼方の銀河では帝国軍の独裁体制が敷かれていた。反乱の機会をうかがう惑星アルデラーンのレイア姫は暗黒卿ダース・ベイダーに捕らえられるが、その寸前に二体のドロイドR2-D2とC-3POを砂漠の惑星タトゥイーンに送り込む。偶然にもそのドロイドを手に入れた青年ルークは、ジェダイの騎士団の一人オビ＝ワン・ケノービや密輸船ミレニアム・ファルコンの船長ハン・ソロたちと共に、反乱軍と帝国軍の闘いに巻き込まれていく。",
+                "runtime": 121,
+                "tagline": "",
+                "title": "スター・ウォーズ エピソード４／新たなる希望"
+            }
+        },
+        {
+            "iso_3166_1": "DK",
+            "iso_639_1": "da",
+            "name": "Dansk",
+            "english_name": "Danish",
+            "data": {
+                "homepage": "",
+                "overview": "Imperiet hersker over galaksen og Jedi-ordenen synes udslettet. Oprørerne har stjålet planerne til Imperiets nye, hemmelige våben, men bliver opsnappet af den ubarmhjertige Darth Vader og prinsesse Leia bliver tilfangetaget. Ved et tilfælde ender planerne hos den unge Luke Skywalker, som sammen med den gamle Ben Kenobi, smugleren Han Solo og hans makker Chewbacca, må befri prinsessen og ødelægge Dødsstjernen.",
+                "runtime": 125,
+                "tagline": "For lang tid siden i en galakse langt, langt væk ...",
+                "title": "Et nyt håb"
+            }
+        },
+        {
+            "iso_3166_1": "SE",
+            "iso_639_1": "sv",
+            "name": "svenska",
+            "english_name": "Swedish",
+            "data": {
+                "homepage": "",
+                "overview": "För länge sedan i en galax långt, långt borta... Prinsessan Leia tas till fånga av det ondskefulla Rymdimperiet. I ett försök att befria den sköna prinsessan slår sig den unge Luke Skywalker ihop med Han Solo. Tillsammans med de båda robotarna R2-D2 och C-3PO inleder de kampen för att befria Galaxen.",
+                "runtime": 121,
+                "tagline": "",
+                "title": "Stjärnornas krig"
+            }
+        },
+        {
+            "iso_3166_1": "NO",
+            "iso_639_1": "no",
+            "name": "Norsk",
+            "english_name": "Norwegian",
+            "data": {
+                "homepage": "",
+                "overview": "Jediridderne er tilintetgjort og Imperiet hersker over galaksen med jernhånd. En liten gruppe opprørere har våget å kjempe tilbake ved å stjele de hemmelige planene for Imperiets mektigste våpen, Dødsstjernen. Keiserens med betrodde tjener, Darth Vader, må finne planene og lokalisere opprørernes gjemmested. Prinsesse Leia, som er opprørsleder, sender ut et nødsignal som blir snappet opp av en enkel gårdsgutt, Luke Skywalker. Luke tar oppfordringen om å redde prinsessen og å hjelpe opprørerne med å styrte Imperiet, sammen med de uforglemmelige allierte, som den vise Obi-Wan Kenobi, den hovne Han Solo, den lojale Chewbacca, og robotene R2-D2 og C-3PO.",
+                "runtime": 121,
+                "tagline": "",
+                "title": "Star Wars: Episode IV - A New Hope"
+            }
+        },
+        {
+            "iso_3166_1": "NO",
+            "iso_639_1": "nb",
+            "name": "Bokmål",
+            "english_name": "Norwegian Bokmål",
+            "data": {
+                "homepage": "",
+                "overview": "",
+                "runtime": 0,
+                "tagline": "",
+                "title": ""
+            }
+        },
+        {
+            "iso_3166_1": "IL",
+            "iso_639_1": "he",
+            "name": "עִבְרִית",
+            "english_name": "Hebrew",
+            "data": {
+                "homepage": "",
+                "overview": "סיפורנו מתחיל על ספינת מורדים שמתאכסנת על ספינתו של העריץ, דארת' ויידר. העלילה נמשכת בחיים פשוטים של בחור רגיל, לוק סקייווקר, כשהוא פוגש חברים חדשים בניסיון להציל את מנהיגת המורדים הנסיכה ליאה, מידיי האימפריה. המסקנה מסתיימת בכך שהמורדים, כולל לוק סקייווקר שמומחה בלטוס עושים מתקפה על הנשק המאיים והחזק ביותר, כוכב המוות.",
+                "runtime": 0,
+                "tagline": "לפני הרבה הרבה זמן... בגלקסיה רחוקה רחוקה...",
+                "title": "מלחמת הכוכבים 4: תקווה חדשה"
+            }
+        },
+        {
+            "iso_3166_1": "BG",
+            "iso_639_1": "bg",
+            "name": "български език",
+            "english_name": "Bulgarian",
+            "data": {
+                "homepage": "",
+                "overview": "Люк Скайуокър обединява сили с рицар джедай, самоуверен пилот, ууки и два дроида, за да спаси галактиката от разрушаващата светове бойна станция на Империята, като същевременно се опитва да спаси принцеса Лея от мистериозния Дарт Вейдър.",
+                "runtime": 121,
+                "tagline": "Преди много години, в една далечна галактика…",
+                "title": "Междузвездни войни: Епизод IV - Нова надежда"
+            }
+        },
+        {
+            "iso_3166_1": "RS",
+            "iso_639_1": "sr",
+            "name": "Srpski",
+            "english_name": "Serbian",
+            "data": {
+                "homepage": "",
+                "overview": "Четврта епизода саге Ратови звезда враћа се на напуштену планету Татуин. Млади Лук Скајвокер открива своју судбину када га током потраге за изгубљеним роботом спашава усамљени џедај Оби-Ван Кеноби. Док галаксијом бесни рат, а побуњеничке снаге се боре против злог Галактичког царства, Лук и Оби-Ван добијају помоћ важног пилота по имену Хан Соло. Прикључује им се необични роботски дуо Р2-Д2 и Ц-3ПО, те се овај тим упућује да спаси принцезу Леу, предводницу побуњеника, с мисијом да униште најважније оружје Царства.",
+                "runtime": 121,
+                "tagline": "",
+                "title": "Ратови звезда: Eпизода IV - Нова нада"
+            }
+        },
+        {
+            "iso_3166_1": "ES",
+            "iso_639_1": "ca",
+            "name": "Català",
+            "english_name": "Catalan",
+            "data": {
+                "homepage": "",
+                "overview": "Fa molt de temps, en una galàxia molt, molt llunyana... un emperador malvat governa amb ma de ferro, recolzat per en Darth Vader, el seu acòlit més fidel i sinistre. Les restes de l'antiga república galàctica són a punt d'extingir-se, però encara queda una esperança si la Princesa Leia aconsegueix cridar l'atenció de l'antic cavaller Jedi, Obi-Wan Kenobi, i fa que se li uneixi en la lluita.",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Star Wars. Episodi IV: Una nova esperança"
+            }
+        },
+        {
+            "iso_3166_1": "RO",
+            "iso_639_1": "ro",
+            "name": "Română",
+            "english_name": "Romanian",
+            "data": {
+                "homepage": "",
+                "overview": "Han Solo se vede prins într-o misiune de salvare, strâmtorat fiind de o datorie către Jabba, binecunoscutul „mafiot”. În urma salvării prințesei Leia el este prins în hățișurile Rebeliunii și ajunge încet să o ajute în a distruge fabuloasa Stea a Morții. Leia este prințesă și spion de elită a Rebeliunii, ea fiind un personaj principal în întreaga trilogie. Tânărul Luke Skywalker este cel ce se dovedește a fi ceea ce Obi Wan Kenobi a căutat",
+                "runtime": 0,
+                "tagline": "Acum mult timp într-o galaxie foarte îndepărtată...",
+                "title": "Războiul stelelor - Episodul IV: O nouă speranță"
+            }
+        },
+        {
+            "iso_3166_1": "BR",
+            "iso_639_1": "pt",
+            "name": "Português",
+            "english_name": "Portuguese",
+            "data": {
+                "homepage": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+                "overview": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
+                "runtime": 121,
+                "tagline": "Que a força esteja com você!",
+                "title": "Guerra nas Estrelas"
+            }
+        },
+        {
+            "iso_3166_1": "MX",
+            "iso_639_1": "es",
+            "name": "Español",
+            "english_name": "Spanish",
+            "data": {
+                "homepage": "http://latino.starwars.com/",
+                "overview": "La Princesa Leia Organa ha sido capturada por Darth Vader por tener los planos de la Estrella de la muerte, la temida estación espacial del imperio. Dos androides escapan al planeta Tatooine, ambos son comprados por Luke Skywalker, un joven granjero, este se entera de un mensaje que ella, uno de ellos y busca a Obi Wan Kenobi, un antiguo caballero Jedi que lo lleva a conocer sobre la fuerza y como utilizarla. Contratan a Han Solo, un foragido espacial que tiene al Halcón Milenario, una gran nave capaz de recorrer a la velocidad de la luz con la intención de rescatar a la princesa y luego organizar una batalla para destruir a la Estrella de la muerte.",
+                "runtime": 121,
+                "tagline": "Hace mucho tiempo, en una galaxia muy lejana....",
+                "title": "La guerra de las galaxias"
+            }
+        },
+        {
+            "iso_3166_1": "TW",
+            "iso_639_1": "zh",
+            "name": "普通话",
+            "english_name": "Mandarin",
+            "data": {
+                "homepage": "",
+                "overview": "遙遠星係發生叛亂，銀河共和國被推翻，奧爾德蘭星的莉亞公主（卡里•費甚爾Carrie Fisher飾）領導抵抗組織對抗銀河帝國，卻不幸被銀河帝國的維德勳爵（大衛•普勞斯David Prowse飾）所俘。機器人R2-D2攜銀河帝國新武器“死星”的結構圖與同伴翻譯機器人C-3PO逃至塔圖因星，途中被加瓦人抓住賣給青年盧克•天行者（馬克•哈米爾Mark Hamill飾）的叔父。在盧克的幫助下，眾人陰錯陽差找到了隱居的絕地武士歐比-旺•肯諾比（亞歷克•吉尼斯Alec Guinness飾）。歐比-旺交給盧克絕地之道，並帶盧克與兩機器人到港口城市茅斯伊斯壘，僱傭走私者韓•索羅（哈里森•福特飾）的千年隼飛船前往奧爾德蘭……",
+                "runtime": 0,
+                "tagline": "",
+                "title": "星際大戰四部曲：曙光乍現"
+            }
+        },
+        {
+            "iso_3166_1": "UA",
+            "iso_639_1": "uk",
+            "name": "Український",
+            "english_name": "Ukrainian",
+            "data": {
+                "homepage": "",
+                "overview": "Татуїн. Планета-пустеля. Вже постарілий лицар Джедай Обі-Ван Кенобі рятує молодого Люка Скайвокера, коли той намагається відшукати зниклого дроїда. З цієї миті Люк усвідомлює своє дійсне призначення: він один з лицарів-Джедаїв. Тоді як громадянська війна охопила галактику, а війська повстанців ведуть бої проти злих сил Імператора, до Люка і Обі-Вану приєднується відчайдушний пілот-найманець Хан Соло, і у супроводі двох дроїдов, R2D2 і C-3PO, цей незвичайний загін вирушає на пошуки предводителя повстанців - принцеси Леї. Героїв чекає відчайдушна сутичка із страхітливим Дартом Вейдером - правою рукою Імператора та його секретною зброєю - «Зіркою Смерті»...",
+                "runtime": 124,
+                "tagline": "Давним-давно, в далекій, далекій галактиці...",
+                "title": "Зоряні війни: Епізод 4 — Нова надія"
+            }
+        },
+        {
+            "iso_3166_1": "HR",
+            "iso_639_1": "hr",
+            "name": "Hrvatski",
+            "english_name": "Croatian",
+            "data": {
+                "homepage": "",
+                "overview": "Nekoć davno, u veoma dalekoj galaksiji… Princeza Leia biva oteta od strane zlih imperijskih sila koje žele ugasiti pobunjenički pokret protiv Galaktičkog carstva. Farmer Luke Skywalker i kapetan Han Solo moraju se udružiti, zajedno sa simpatičnim robotima R2-D2 i C-3PO, kako bi spasili lijepu princezu i vratili pravdu u galaksiju.",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Ratovi zvijezda: Epizoda IV - Nova nada"
+            }
+        },
+        {
+            "iso_3166_1": "CA",
+            "iso_639_1": "fr",
+            "name": "Français",
+            "english_name": "French",
+            "data": {
+                "homepage": "",
+                "overview": "Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l'Etoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan Kenobi, devenu ermite au coeur des montagnes désertiques de Tatooine...",
+                "runtime": 121,
+                "tagline": "Que la force soit avec toi!",
+                "title": "La guerre des étoiles"
+            }
+        },
+        {
+            "iso_3166_1": "IR",
+            "iso_639_1": "fa",
+            "name": "فارسی",
+            "english_name": "Persian",
+            "data": {
+                "homepage": "",
+                "overview": "در سال‌هایی خیلی دور در کهکشانی خیلی دور آزادی خواهان در حال مبارزه با امپراتوری دیکتاتوری فضایی هستند. در همین فاصله «پرنسس لیا» (فیشر) اسیر معاون امپراتور می‌شود که «دارت ویدر» نام دارد. لیا مخفیانه ۲ روبات را همراه با پیامی به سیاره‌ی تاتوین می‌فرستد و این ۲ روبات به دست پسری به اسم «لوک» (همیل) می افتند و لوک همراه با «اوبی وان کنوبی» و ۲ روبات، و خلبانی شیاد به اسم «هان سولو» (هریسون فورد) برای نجات لیا اقدام می‌کنند...",
+                "runtime": 0,
+                "tagline": "",
+                "title": "جنگ ستارگان: قسمت چهارم - امیدی تازه"
+            }
+        },
+        {
+            "iso_3166_1": "TH",
+            "iso_639_1": "th",
+            "name": "ภาษาไทย",
+            "english_name": "Thai",
+            "data": {
+                "homepage": "",
+                "overview": "ภาพยนตร์เดินเรื่องใน \"กาลครั้งหนึ่งนานมาแล้ว ณ กาแลกซี อันไกลแสนไกล\" เล่าเรื่องของนักต่อสู้เพื่ออิสรภาพเรียกตัวเองว่า \"พันธมิตรกบฏ\" ที่วางแผนทำลายสถานีอวกาศดาวมรณะที่ทรงพลัง ซึ่งสร้างโดยจักรวรรดิกาแลกติกที่ชั่วร้าย ทำให้ชีวิตของเด็กหนุ่มชาวไร่ ลุค สกายวอล์คเกอร์ เปลี่ยนแปลงไปตลอดกาล เมื่อเขาบังเอิญได้เป็นเจ้าของหุ่นยนต์สองตนที่เก็บข้อมูลแผนผังดาวมรณะเอาไว้ เมื่อจักรวรรดิออกตามหาหุ่นยนต์ทั้งสองตนอย่างโหดร้าย ลุคจึงตัดสินใจออกเดินทางร่วมกับอาจารย์เจไดโอบีวัน เคโนบี เพื่อไปช่วยเหลือเจ้าของของหุ่นยนต์ทั้งสองคือเจ้าหญิงเลอาและช่วยกอบกู้กาแลกซีเอาไว้",
+                "runtime": 0,
+                "tagline": "",
+                "title": "สตาร์ วอร์ส เอพพิโซด 4: ความหวังใหม่"
+            }
+        },
+        {
+            "iso_3166_1": "LT",
+            "iso_639_1": "lt",
+            "name": "Lietuvių",
+            "english_name": "Lithuanian",
+            "data": {
+                "homepage": "",
+                "overview": "Pirmoji epopėjos dalis pasakoja apie berniuką - Luką Skaivokerį, gyvenantį drauge su dėde ir teta nedidelėje fermoje Tatunio planetoje. Berniukas trokšta mokytis, tačiau dėdei jis reikalingas padėti tvarkyti ūkį. Tuo metu galaktiką užvaldo žiaurus tironas, galintis sunaikinti visas planetas. Jam pasipriešina princesė Lėja. Ji išsiunčia pasiuntinį su robotu androidu į valdovo kosminį laivą. Čia reikia surasti \"Mirties žvaigždę\", galinčią sunaikinti galaktiką. Tatunio dykumoje sutinka Luką...",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Žvaigždžių karai: Epizodas IV - Nauja viltis"
+            }
+        },
+        {
+            "iso_3166_1": "LV",
+            "iso_639_1": "lv",
+            "name": "Latviešu",
+            "english_name": "Latvian",
+            "data": {
+                "homepage": "",
+                "overview": "Princess Leia tiek notverts un noturēts par ķīlnieku no ļaunajiem impērijas spēkiem, cenšoties pārņemt galaktikas impēriju. Aizrautīgs Luke Skywalker un brašā kapteiņa Han Solo komanda kopā ar mīlīgo robotu duetu R2-D2 un C-3PO, lai glābtu skaisto princesi un atjaunotu mieru un taisnīgumu impērijā.",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Zvaigžņu kari: Jaunā cerība"
+            }
+        },
+        {
+            "iso_3166_1": "GE",
+            "iso_639_1": "ka",
+            "name": "ქართული",
+            "english_name": "Georgian",
+            "data": {
+                "homepage": "",
+                "overview": "",
+                "runtime": 0,
+                "tagline": "",
+                "title": "ვარსკვლავური ომები: ახალი იმედი"
+            }
+        },
+        {
+            "iso_3166_1": "ID",
+            "iso_639_1": "id",
+            "name": "Bahasa indonesia",
+            "english_name": "Indonesian",
+            "data": {
+                "homepage": "",
+                "overview": "Putri Leia ditangkap dan disandera oleh pasukan Kekaisaran jahat dalam upaya mereka untuk mengambil alih Kekaisaran galaksi. Venturesome Luke Skywalker dan kapten gagah tim Han Solo bersama dengan duo robot yang dicintai R2-D2 dan C-3PO untuk menyelamatkan putri cantik dan memulihkan kedamaian dan keadilan di Kekaisaran.",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Star Wars: Episode IV - A New Hope"
+            }
+        },
+        {
+            "iso_3166_1": "HK",
+            "iso_639_1": "zh",
+            "name": "普通话",
+            "english_name": "Mandarin",
+            "data": {
+                "homepage": "",
+                "overview": "年青勇士Luke Skywalker因在尋找失蹤的機械人遇險時時被武士Obi-Wan所救，驚覺自己肩負了維護宇宙和平的責任。此時正值銀河局勢動盪不安，得Han Solo隊長相助下，Han Solo與Obi-Wan合力救出因偷取摧毀死亡星的秘密方程式而失手被捕的公主Leia，他們決心要鎮壓銀河帝國叛亂的危機及對抗邪惡的黑武士。",
+                "runtime": 125,
+                "tagline": "",
+                "title": "星球大戰：新的希望"
+            }
+        },
+        {
+            "iso_3166_1": "SI",
+            "iso_639_1": "sl",
+            "name": "Slovenščina",
+            "english_name": "Slovenian",
+            "data": {
+                "homepage": "",
+                "overview": "",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Vojna zvezd: Epizoda IV - Novo upanje"
+            }
+        },
+        {
+            "iso_3166_1": "VN",
+            "iso_639_1": "vi",
+            "name": "Tiếng Việt",
+            "english_name": "Vietnamese",
+            "data": {
+                "homepage": "",
+                "overview": "Luke Skywalker sống trên một trang trại ở hành tinh Tatooine bụi bặm cùng với cô và chú của anh. Luke là một thanh niên gan dạ và rất nóng lòng được trở thành một chiến binh nổi lọan. Lúc này, tên Darth Vader tàn bạo đã thôn tính cả thiên hà và đang hoàn thành một vũ khí hủy diệt khủng khiếp, Death Star. Công chúa Leia, người dẫn đầu phong trào nổi lọan, biết được kế họach này và tìm cách báo cho Obi-Wan Kenobi, một nhà tu hành già nua sống ẩn dật có sức mạnh phi thường. Vô tình tìm thấy mẩu tin báo nguy của công chúa dấu trong người máy R2D2, Luke lên đường tìm kiếm Obi-Wan Kenobi để hợp sức cùng nhau cứu công chúa cũng như giải thóat cả thiên hà...",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Star Wars 4: Niềm Hy Vọng Mới"
+            }
+        },
+        {
+            "iso_3166_1": "SA",
+            "iso_639_1": "ar",
+            "name": "العربية",
+            "english_name": "Arabic",
+            "data": {
+                "homepage": "",
+                "overview": "تم القبض على الأميرة ليا واحتجازها كرهينة من قبل القوات الإمبراطورية الشريرة في جهودها للسيطرة على الإمبراطورية المجرية. فريق المغامر Luke Skywalker والقبطان المبهر Han Solo مع الثنائي الروبوت المحبوب R2-D2 و C-3PO لإنقاذ الأميرة الجميلة واستعادة السلام والعدالة في الإمبراطورية.",
+                "runtime": 0,
+                "tagline": "منذ زمن بعيد في مجرة بعيدة ، بعيدة ...",
+                "title": ""
+            }
+        },
+        {
+            "iso_3166_1": "ES",
+            "iso_639_1": "eu",
+            "name": "euskera",
+            "english_name": "Basque",
+            "data": {
+                "homepage": "",
+                "overview": "Luke Skywalker gazteak (Mark Hamill) indarrak biltzen ditu zaldun Jedi batekin (Alec Guiness), pilotu harro batekin (Harrison Ford), giza itxurako tantai iletsu batekin eta bi androiderekin, unibertsoa salbatzeko Inperioaren guda-estazio boteretsuaren mehatxutik. Horrekin batera, Leia printzesa (Carrie Fisher) aurkitu eta askatu beharko dute Darth Vader gaiztoaren atzaparretatik.",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Izarretako Gerra IV Itxaropen Berria"
+            }
+        },
+        {
+            "iso_3166_1": "LA",
+            "iso_639_1": "la",
+            "name": "Latin",
+            "english_name": "Latin",
+            "data": {
+                "homepage": "",
+                "overview": "",
+                "runtime": 0,
+                "tagline": "",
+                "title": ""
+            }
+        },
+        {
+            "iso_3166_1": "FY",
+            "iso_639_1": "fy",
+            "name": "",
+            "english_name": "Frisian",
+            "data": {
+                "homepage": "",
+                "overview": "",
+                "runtime": 0,
+                "tagline": "",
+                "title": ""
+            }
+        },
+        {
+            "iso_3166_1": "EE",
+            "iso_639_1": "et",
+            "name": "Eesti",
+            "english_name": "Estonian",
+            "data": {
+                "homepage": "",
+                "overview": "Noor ja hakkaja poiss Luke Skywalker elab räpasel Tatooine planeedil oma onu ja tädi juures. Ta tahab minna Akadeemiasse ning saada Mässajate võitlejaks, kuid onu vajab teda viljakoristuse jaoks. Samal ajal võitlevad Mässajad eesotsas Printsess Leiaga kurja Impeeriumi vastu. Nad ründavad Impeeriumi võimsaimat relva Surmatähte - võimast komeedi moodi kosmoselaeva, mida juhivad Moff Tarkin ja Darth Vader. Kui Impeeriumi võitlejad Luke'i onu ja tädi tapavad, saab ta Leialt abipalve, kus palub koos targa miniroboti R2-D2'ga leida üles üks viimaseid elus olevaid Jedi rüütleid Obi-Wan Kenobi. Oma teel aitavad teda palgasõdur Han Solo ja tema karvane abiline Chewbacca. Püüdes printsessi ja tema liitlasi vabastada, satuvad nad koos ohtlikkesse olukordadesse, mis võivad kogu galaktika saatuse igaveseks muuta",
+                "runtime": 0,
+                "tagline": "",
+                "title": "Star Wars: Osa IV - Uus lootus"
+            }
+        }
+    ]
 }

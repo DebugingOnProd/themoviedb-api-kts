@@ -1,51 +1,38 @@
 {
-  "adult": false,
-  "backdrop_path": null,
-  "belongs_to_collection": null,
-  "budget": 0,
-  "genres": [
-    {
-      "id": 99,
-      "name": "Documentary"
-    },
-    {
-      "id": 10752,
-      "name": "War"
-    }
-  ],
-  "homepage": "",
-  "id": 1381910,
-  "imdb_id": "tt12816892",
-  "origin_country": [
-    "US"
-  ],
-  "original_language": "en",
-  "original_title": "Pacific Milk Run",
-  "overview": "In \"Pacific Milk Run\" U.S. Marine SBDs and other aircraft attack Japanese-held Islands in the Pacific during World War II.",
-  "popularity": 0,
-  "poster_path": null,
-  "production_companies": [
-    {
-      "id": 115847,
-      "logo_path": null,
-      "name": "The U.S. Navy",
-      "origin_country": ""
-    }
-  ],
-  "production_countries": [
-    {
-      "iso_3166_1": "US",
-      "name": "United States of America"
-    }
-  ],
-  "release_date": "1943-11-03",
-  "revenue": 0,
-  "runtime": 18,
-  "spoken_languages": [],
-  "status": "Released",
-  "tagline": "",
-  "title": "Pacific Milk Run",
-  "video": false,
-  "vote_average": 0,
-  "vote_count": 0
+    "adult": false,
+    "backdrop_path": null,
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+
+    ],
+    "homepage": "https://www.br-klassik.de/concert/ausstrahlung-2990940.html",
+    "id": 1392002,
+    "imdb_id": null,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "Alessandro nell'Indie",
+    "overview": "Alessandro nell'Indie was published in Rome in 1730, where women were barred from performing for religious reasons. The female roles were therefore all sung by castrati. The Bayreuth production takes up this fact with an all-male cast featuring the Brazilian soprano Bruno de Sá and the countertenors Franco Fagioli and Jake Arditti in the leading roles. The orchestra is the Polish {OH!} Orkiestra Historyczna under the direction of Martyna Pastuszka. The Bayreuth Baroque Opera Festival stages music theater in the authentic ambience of the Margravial Opera House in Bayreuth. There are very few baroque theaters in such good original condition: the magnificent interior gleams with golden ornaments, the colorful wood paneling transports the audience to the long-gone world of brocade skirts and powdered wigs.",
+    "popularity": 0,
+    "poster_path": null,
+    "production_companies": [
+
+    ],
+    "production_countries": [
+
+    ],
+    "release_date": "",
+    "revenue": 0,
+    "runtime": 233,
+    "spoken_languages": [
+
+    ],
+    "status": "Released",
+    "tagline": "Bayreuth Baroque Opera Festival",
+    "title": "Alessandro nell'Indie",
+    "video": false,
+    "vote_average": 0,
+    "vote_count": 0
 }
