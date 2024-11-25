@@ -221,4 +221,12 @@ class MovieApi(private val httpClient: HttpClient){
         val ratingResult = GsonUtils.fromJson<RatingResult>(request)
         return ratingResult
     }
+
+
+    fun deleteRating(movieId: Int): RatingResult? {
+        val url = "/movie/${movieId}/rating"
+        val request = httpClient.request(UrlBuilder(url), RequestType.DELETE, false)
+        val ratingResult = GsonUtils.fromJson<RatingResult>(request)
+        return ratingResult
+    }
 }

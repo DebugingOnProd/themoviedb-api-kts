@@ -178,6 +178,15 @@ class MovieKtTest {
         val ratingResult = TmdbApi(tmdbConfig).getMovieApi().addRating(11, 8.0f)
         val expectedRatingResult = readFile.readEntity<RatingResult>("api_test_result/movie/rating.json")
         logger.debug("ratingResult: {}", ratingResult)
-        assertEquals(expectedRatingResult, ratingResult)
+        assertEquals(expectedRatingResult, ratingResult, "评分结果值实际值与预期值不相等")
+    }
+
+    @Test
+    @DisplayName("delete_rating")
+    fun deleteRatingTest(){
+        val deleteRatingResult = TmdbApi(tmdbConfig).getMovieApi().deleteRating(11)
+        val expectedRatingResult = readFile.readEntity<RatingResult>("api_test_result/movie/delete_rating.json")
+        logger.debug("deleteRatingResult: {}", deleteRatingResult)
+        assertEquals(expectedRatingResult, deleteRatingResult,"删除评分结果值实际值与预期值不相等")
     }
 }
