@@ -12,4 +12,8 @@ class TmdbApi (tmdbConfig: TmdbConfig) {
     fun getAccountApi() : AccountApi {
         return AccountApi(httpClient)
     }
+
+    fun getNetworkApi() : NetworkApi {
+        return NetworkApi(httpClient)
+    }
 }
