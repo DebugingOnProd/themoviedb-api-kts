@@ -1,5 +1,6 @@
 package org.lhq
 
+import org.junit.jupiter.api.BeforeEach
 import org.lhq.entity.account.AccountDetails
 import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
@@ -17,17 +18,22 @@ class AccountKtTest {
 
     private val logger = LoggerFactory.getLogger(AccountKtTest::class.java)
 
+    @BeforeEach
+    fun init() {
+        val  readFile = ReadFile()
+        val configStr = readFile.readJsonFileAsString("config.json")
+        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
+        TmdbApi.initialize(tmdbConfig)
+    }
+
     @Test
     @DisplayName("get_account_details")
     fun getAccountDetailsTest() {
-        val  readFile = ReadFile();
-        val configStr = readFile.readJsonFileAsString("config.json")
-        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
         System.setProperty("java.net.useSystemProxies", "true");
-        val accountApi = TmdbApi(tmdbConfig).getAccountApi()
+        val accountApi = TmdbApi.getInstanceApi().getAccountApi()
         val actualDetails = accountApi.getDetails(20874374)
         logger.info("actualDetails:{}",actualDetails)
-        val expectedDetails = readFile.readEntity<AccountDetails>("api_test_result/account/details.json")
+        val expectedDetails = ReadFile().readEntity<AccountDetails>("api_test_result/account/details.json")
         /**
          * expected：期望的结果。
          * actual：实际的结果。
@@ -41,10 +47,7 @@ class AccountKtTest {
     @DisplayName("get_favorite_movies")
     fun getFavoriteMoviesTest(){
         val  readFile = ReadFile();
-        System.setProperty("java.net.useSystemProxies", "true");
-        val configStr = readFile.readJsonFileAsString("config.json")
-        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
-        val favoriteMovies = TmdbApi(tmdbConfig).getAccountApi()
+        val favoriteMovies = TmdbApi.getInstanceApi().getAccountApi()
             .getFavoriteMovies(
                 20874374,
                 1,
@@ -59,10 +62,8 @@ class AccountKtTest {
     @DisplayName("get_favorite_tv")
     fun getFavoriteTvTest(){
         val  readFile = ReadFile();
-        val configStr = readFile.readJsonFileAsString("config.json")
-        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
         AccountSortBy.CREATED_AT_ASC
-        val favoriteTv = TmdbApi(tmdbConfig).getAccountApi()
+        val favoriteTv = TmdbApi.getInstanceApi().getAccountApi()
             .getFavoriteTv(
                 20874374,
                 1,
@@ -78,9 +79,7 @@ class AccountKtTest {
     @DisplayName("get_recommendations")
     fun getRecommendationsTest(){
         val  readFile = ReadFile();
-        val configStr = readFile.readJsonFileAsString("config.json")
-        val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
-        val recommendations = TmdbApi(tmdbConfig).getMovieApi().getRecommendations(11,1)
+        val recommendations = TmdbApi.getInstanceApi().getMovieApi().getRecommendations(11,1)
         val expectedRecommendations  = readFile.readEntity<RecommendationResult>("api_test_result/movie/recommendations.json")
         logger.info("recommendations:{}",recommendations)
         assertEquals(expectedRecommendations,recommendations,"TmdbApi.getRecommendations 请求结果与预期不一致")

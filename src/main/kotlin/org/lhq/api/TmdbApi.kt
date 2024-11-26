@@ -3,17 +3,35 @@ package org.lhq.api
 import org.lhq.entity.TmdbConfig
 import org.lhq.http.HttpClient
 
-class TmdbApi (tmdbConfig: TmdbConfig) {
+class TmdbApi private constructor( private val tmdbConfig: TmdbConfig) {
     private val httpClient = HttpClient(tmdbConfig)
-    fun getMovieApi() : MovieApi {
-        return MovieApi(httpClient)
+
+    private inline fun <reified T> createApi(apiClass: Class<T>) : T {
+        return when (apiClass) {
+            MovieApi::class.java -> MovieApi(httpClient) as T
+            AccountApi::class.java -> AccountApi(httpClient)  as T
+            NetworkApi::class.java -> NetworkApi(httpClient) as T
+            else -> throw IllegalArgumentException("Unsupported API class: $apiClass")
+        }
     }
 
-    fun getAccountApi() : AccountApi {
-        return AccountApi(httpClient)
+    fun getMovieApi() = createApi(MovieApi::class.java)
+    fun getAccountApi() = createApi(AccountApi::class.java)
+    fun getNetworkApi() = createApi(NetworkApi::class.java)
+
+
+
+    companion object {
+        private lateinit var tmdbConfig: TmdbConfig
+        private val instance: TmdbApi by lazy {
+            TmdbApi(tmdbConfig)
+        }
+        fun initialize(config: TmdbConfig) {
+            tmdbConfig = config
+        }
+        fun getInstanceApi(): TmdbApi {
+            return instance
+        }
     }
 
-    fun getNetworkApi() : NetworkApi {
-        return NetworkApi(httpClient)
-    }
 }
