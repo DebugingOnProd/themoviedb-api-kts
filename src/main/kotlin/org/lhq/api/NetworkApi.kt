@@ -1,5 +1,6 @@
 package org.lhq.api
 
+import org.lhq.entity.network.AlternativeName
 import org.lhq.entity.network.NetworkDetails
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
@@ -14,5 +15,17 @@ class NetworkApi(private val httpClient: HttpClient) {
         val request = UrlBuilder(url)
         val response = httpClient.request(request, RequestType.GET, true)
         return GsonUtils.fromJson<NetworkDetails>(response)
+    }
+
+    /**
+     * Get the alternative names of a network.
+     * @param networkId Int
+     */
+
+    fun getNetworkAlternativeNames(networkId:Int) : AlternativeName? {
+        val url = "/network/${networkId}/alternative_names"
+        val request = UrlBuilder(url)
+        val response = httpClient.request(request, RequestType.GET, true)
+        return GsonUtils.fromJson<AlternativeName>(response)
     }
 }

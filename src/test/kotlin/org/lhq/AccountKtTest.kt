@@ -17,10 +17,11 @@ class AccountKtTest {
 
 
     private val logger = LoggerFactory.getLogger(AccountKtTest::class.java)
+    private val  readFile = ReadFile()
+
 
     @BeforeEach
     fun init() {
-        val  readFile = ReadFile()
         val configStr = readFile.readJsonFileAsString("config.json")
         val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
         TmdbApi.initialize(tmdbConfig)
@@ -46,7 +47,6 @@ class AccountKtTest {
     @Test
     @DisplayName("get_favorite_movies")
     fun getFavoriteMoviesTest(){
-        val  readFile = ReadFile();
         val favoriteMovies = TmdbApi.getInstanceApi().getAccountApi()
             .getFavoriteMovies(
                 20874374,
@@ -61,7 +61,6 @@ class AccountKtTest {
     @Test
     @DisplayName("get_favorite_tv")
     fun getFavoriteTvTest(){
-        val  readFile = ReadFile();
         AccountSortBy.CREATED_AT_ASC
         val favoriteTv = TmdbApi.getInstanceApi().getAccountApi()
             .getFavoriteTv(
@@ -78,7 +77,6 @@ class AccountKtTest {
     @Test
     @DisplayName("get_recommendations")
     fun getRecommendationsTest(){
-        val  readFile = ReadFile();
         val recommendations = TmdbApi.getInstanceApi().getMovieApi().getRecommendations(11,1)
         val expectedRecommendations  = readFile.readEntity<RecommendationResult>("api_test_result/movie/recommendations.json")
         logger.info("recommendations:{}",recommendations)

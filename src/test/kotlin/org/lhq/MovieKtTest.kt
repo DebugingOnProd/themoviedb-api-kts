@@ -22,7 +22,6 @@ class MovieKtTest {
 
     @BeforeEach
     fun init() {
-        val  readFile = ReadFile()
         val configStr = readFile.readJsonFileAsString("config.json")
         val tmdbConfig = readFile.strToEntity<TmdbConfig>(configStr)
         TmdbApi.initialize(tmdbConfig)
