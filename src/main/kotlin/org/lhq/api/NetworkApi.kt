@@ -2,6 +2,7 @@ package org.lhq.api
 
 import org.lhq.entity.network.AlternativeName
 import org.lhq.entity.network.NetworkDetails
+import org.lhq.entity.network.NetworkImage
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
 import org.lhq.http.UrlBuilder
@@ -28,4 +29,12 @@ class NetworkApi(private val httpClient: HttpClient) {
         val response = httpClient.request(request, RequestType.GET, true)
         return GsonUtils.fromJson<AlternativeName>(response)
     }
+
+
+    fun getTvNetworkImages(networkId: Int) : NetworkImage?{
+        val url = "/network/${networkId}/images"
+        val request = UrlBuilder(url)
+        val response = httpClient.request(request, RequestType.GET, true)
+        return GsonUtils.fromJson<NetworkImage>(response)
+     }
 }

@@ -6,6 +6,7 @@ import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.network.AlternativeName
 import org.lhq.entity.network.NetworkDetails
+import org.lhq.entity.network.NetworkImage
 import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
 import kotlin.test.Test
@@ -39,5 +40,14 @@ class NetworkKtTest {
         logger.info("alternativeName:{}",alternativeName)
         val expectedAlternativeName = readFile.readEntity<AlternativeName>("api_test_result/network/alternativeName.json")
         assertEquals(expectedAlternativeName, alternativeName,"实际网站结果与预期结果不一致")
+    }
+
+    @Test
+    @DisplayName("getTvNetworkImages")
+    fun testGetTvNetworkImages(){
+        val tvNetworkImages = TmdbApi.getInstanceApi().getNetworkApi().getTvNetworkImages(11)
+        logger.info("tvNetworkImages:{}",tvNetworkImages)
+        val expectedTvNetworkImages = readFile.readEntity<NetworkImage>("api_test_result/network/images.json")
+        assertEquals(expectedTvNetworkImages, tvNetworkImages,"实际图片结果与预期结果不一致")
     }
 }
