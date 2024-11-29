@@ -30,7 +30,7 @@ class HttpClient(private val tmdbConfig: TmdbConfig) {
 
     private fun request(url:String, requestType: RequestType, body: String?) : String? {
         val (baseUrl : String, _ ,token : String, _,apiVersion:String ) = tmdbConfig
-        val requestUrl = "$baseUrl/$apiVersion$url"
+        val requestUrl = "$baseUrl/$apiVersion/$url"
         val uri = URI.create(requestUrl)
         logger.info("requestUrl:$uri")
         // 记录请求开始时间

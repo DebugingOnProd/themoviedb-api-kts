@@ -11,6 +11,7 @@ class TmdbApi private constructor( private val tmdbConfig: TmdbConfig) {
             MovieApi::class.java -> MovieApi(httpClient) as T
             AccountApi::class.java -> AccountApi(httpClient)  as T
             NetworkApi::class.java -> NetworkApi(httpClient) as T
+            SearchApi::class.java -> SearchApi(httpClient) as T
             else -> throw IllegalArgumentException("Unsupported API class: $apiClass")
         }
     }
@@ -18,6 +19,8 @@ class TmdbApi private constructor( private val tmdbConfig: TmdbConfig) {
     fun getMovieApi() = createApi(MovieApi::class.java)
     fun getAccountApi() = createApi(AccountApi::class.java)
     fun getNetworkApi() = createApi(NetworkApi::class.java)
+
+    fun getSearchApi() = createApi(SearchApi::class.java)
 
 
 
