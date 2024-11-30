@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
 import org.lhq.entity.search.CollectionResult
+import org.lhq.entity.search.CompanyResult
 import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
 import kotlin.test.Test
@@ -28,8 +29,18 @@ class SearchKtTest {
     fun testSearchCollection() {
         val searchApi = TmdbApi.getInstanceApi().getSearchApi()
         val searchResult = searchApi.searchCollection("流浪地球",false,1,"CN")
-        logger.info("searchResult:{}",searchResult)
+        logger.info("searchCollectionResult:{}",searchResult)
         val expectedResult = readFile.readEntity<CollectionResult>("api_test_result/search/collection.json")
+        assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
+    }
+
+    @Test
+    @DisplayName("Search_Company_Test")
+    fun testSearchCompany() {
+        val searchApi = TmdbApi.getInstanceApi().getSearchApi()
+        val searchResult = searchApi.searchCompany("Sony",1)
+        logger.info("searchCompanyResult:{}",searchResult)
+        val expectedResult = readFile.readEntity<CompanyResult>("api_test_result/search/company.json")
         assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
     }
 }
