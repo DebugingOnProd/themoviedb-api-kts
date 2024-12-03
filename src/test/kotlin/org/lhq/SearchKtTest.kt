@@ -7,6 +7,8 @@ import org.lhq.entity.TmdbConfig
 import org.lhq.entity.search.CollectionResult
 import org.lhq.entity.search.CompanyResult
 import org.lhq.entity.search.KeywordResult
+import org.lhq.entity.search.MovieResult
+import org.lhq.entity.search.param.MovieParam
 import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
 import kotlin.test.Test
@@ -53,6 +55,16 @@ class SearchKtTest {
         val searchResult = searchApi.searchKeyword("Arcane",1)
         logger.info("searchKeywordResult:{}",searchResult)
         val expectedResult = readFile.readEntity<KeywordResult>("api_test_result/search/keyword.json")
+        assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
+    }
+    @Test
+    @DisplayName("Search_Movie_Test")
+    fun testSearchMovie() {
+        val searchApi = TmdbApi.getInstanceApi().getSearchApi()
+        val param =MovieParam("流浪地球")
+        val searchResult = searchApi.searchMovie(param)
+        logger.info("searchMovieResult:{}",searchResult)
+        val expectedResult = readFile.readEntity<MovieResult>("api_test_result/search/movie.json")
         assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
     }
 }

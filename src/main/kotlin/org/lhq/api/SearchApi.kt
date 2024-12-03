@@ -3,6 +3,7 @@ package org.lhq.api
 import org.lhq.entity.search.CollectionResult
 import org.lhq.entity.search.CompanyResult
 import org.lhq.entity.search.KeywordResult
+import org.lhq.entity.search.MovieResult
 import org.lhq.entity.search.param.MovieParam
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
@@ -47,26 +48,27 @@ class SearchApi(private val httpClient: HttpClient) {
     }
 
 
-    fun searchMovie(query: MovieParam): Unit{
+    fun searchMovie(query: MovieParam): MovieResult?{
         val url = "search/movie"
         val queryStr = query.query
         val param = UrlBuilder(url).addParam("query",queryStr)
-        query.includeAdult.let{
+        query.includeAdult?.let{
             param.addParam("include_adult",it.toString())
         }
-        query.primaryReleaseYear.let{
+        query.primaryReleaseYear?.let{
             param.addParam("primary_release_year",it.toString())
         }
-        query.page.let{
+        query.page?.let{
             param.addParam("page",it.toString())
         }
-        query.region.let{
+        query.region?.let{
             param.addParam("region",it.toString())
         }
-        query.year.let{
+        query.year?.let{
             param.addParam("year", it.toString())
         }
         val rep = httpClient.request(param, RequestType.GET, true)
-
+        val result = GsonUtils.fromJson<MovieResult>(rep)
+        return result;
     }
 }

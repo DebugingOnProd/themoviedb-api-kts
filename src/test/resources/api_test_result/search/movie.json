@@ -3,6 +3,24 @@
   "results": [
     {
       "adult": false,
+      "backdrop_path": "/94cS0mzODEoNIXFT7nhPcI8V4IJ.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 842675,
+      "original_language": "zh",
+      "original_title": "流浪地球2",
+      "overview": "在并不遥远的未来，太阳急速衰老与膨胀，再过几百年整个太阳系将被它吞噬毁灭。为了应对这场史无前例的危机，地球各国放下芥蒂，成立联合政府，试图寻找人类存续的出路。通过摸索与考量，最终推着地球逃出太阳系的“移山计划”获得压倒性胜利。人们着手建造上万台巨大的行星发动机，带着地球踏上漫漫征程。满腔赤诚的刘培强（吴京 饰）和韩朵朵（王智 饰）历经层层考验成为航天员大队的一员，并由此相知相恋。但是漫漫征途的前方，仿佛有一股神秘的力量不断破坏者人类的自救计划。看似渺小的刘培强、量子科学家图恒宇（刘德华 饰）、联合政府中国代表周喆直（李雪健 饰）以及无数平凡的地球人，构成了这项伟大计划的重要一环……本片根据刘慈欣同名科幻小说改编。",
+      "popularity": 43.476,
+      "poster_path": "/cAS2e9hUwu6Ydsx7byXj16H00Ai.jpg",
+      "release_date": "2023-01-22",
+      "title": "流浪地球2",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 566
+    },
+    {
+      "adult": false,
       "backdrop_path": "/wIrqeoJHYtZmneqIufPtcOHMjOg.jpg",
       "genre_ids": [
         878,
@@ -12,32 +30,32 @@
       "id": 535167,
       "original_language": "zh",
       "original_title": "流浪地球",
-      "overview": "When the Sun begins to expand in such a way that it will inevitably engulf and destroy the Earth in a hundred years, united mankind finds a way to avoid extinction by propelling the planet out of the Solar System using gigantic engines, moving it to a new home located four light years away, an epic journey that will last thousands of years.",
+      "overview": "近未来，科学家们发现太阳急速衰老膨胀，短时间内包括地球在内的整个太阳系都将被太阳所吞没。为了自救，人类提出一个名为“流浪地球”的大胆计划，即倾全球之力在地球表面建造上万座发动机和转向发动机，推动地球离开太阳系，用 2500 年的时间奔往另外一个栖息之地。中国航天员刘培强（吴京 饰）在儿子刘启四岁那年前往国际空间站，和国际同侪肩负起领航者的重任。转眼刘启（屈楚萧 饰）长大，他带着妹妹朵朵（赵今麦 饰）偷偷跑到地表，偷开外公韩子昂（吴孟达 饰）的运输车，结果不仅遭到逮捕，还遭遇了全球发动机停摆的事件。为了修好发动机，阻止地球坠入木星，全球开始展开饱和式营救，连刘启他们的车也被强征加入。在与时间赛跑的过程中，无数的人前仆后继，奋不顾身，只为延续百代子孙生存的希望……",
       "popularity": 26.366,
-      "poster_path": "/AtWfsYZGW69YcCYOaVZ0EKNN14v.jpg",
+      "poster_path": "/xFMScAZdxUdNYav0vdhV54v6ppT.jpg",
       "release_date": "2019-02-05",
-      "title": "The Wandering Earth",
+      "title": "流浪地球",
       "video": false,
       "vote_average": 6.6,
       "vote_count": 953
     },
     {
       "adult": false,
-      "backdrop_path": "/94cS0mzODEoNIXFT7nhPcI8V4IJ.jpg",
+      "backdrop_path": "/n3XvbFpRbTSu4olOwu0Rjuirrdv.jpg",
       "genre_ids": [
-        878
+        99
       ],
-      "id": 842675,
+      "id": 1328632,
       "original_language": "zh",
-      "original_title": "流浪地球2",
-      "overview": "Humans built huge engines on the surface of the earth to find a new home. But the road to the universe is perilous. In order to save earth, young people once again have to step forward to start a race against time for life and death.",
-      "popularity": 43.476,
-      "poster_path": "/hr7SKKj6QpfS32dF0HCmVi6R7J4.jpg",
-      "release_date": "2023-01-22",
-      "title": "The Wandering Earth II",
+      "original_title": "流浪地球2：再次冒险",
+      "overview": "　　该纪录片将带观众深入探索《流浪地球2》的幕后世界：导演、制片人、美术及特效团队等电影核心主创将亲自讲述这部科幻巨制的制作过程与他们的心路历程，观众将看到他们在追求电影艺术极致的同时，如何推动中国电影工业化进程、为中国科幻电影的未来开辟新道路。\r 　　此外，纪录片还特别邀请了中国知名科幻学者、作家回顾中国科幻的发展历程——从早期的科幻小说到如今的科幻电影，观众将了解到百年时光中，中国科幻从萌芽到茁壮成长的过程。这是一次不容错过的中国科幻电影冒险之旅，也是一次对中国科幻未来的深情展望。",
+      "popularity": 3.482,
+      "poster_path": "/zQP6iW5Ya4MyMRXl0t28ckV1spp.jpg",
+      "release_date": "2024-09-15",
+      "title": "流浪地球2：再次冒险",
       "video": false,
-      "vote_average": 7.2,
-      "vote_count": 566
+      "vote_average": 10,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -50,32 +68,14 @@
       "id": 1231322,
       "original_language": "zh",
       "original_title": "流浪地球3",
-      "overview": "The sun is about to be destroyed, and humans have built huge thrusters on the surface of the earth to find a new home. However, the road to the universe is full of dangers. In order to save the earth, young people from the wandering earth era stepped forward for the third time and started a life-and-death battle against time.",
+      "overview": "太阳即将毁灭，人类在地球表面建造出巨大的推进器，寻找新的家园。然而宇宙之路危机四伏，为了拯救地球，流浪地球时代的年轻人第三次挺身而出，展开争分夺秒的生死之战……",
       "popularity": 3.706,
       "poster_path": "/6J47ApJVOmNrHJezrxnRaTDXBfx.jpg",
       "release_date": "2027-02-06",
-      "title": "The Wandering Earth III",
+      "title": "流浪地球3",
       "video": false,
       "vote_average": 0,
       "vote_count": 0
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/n3XvbFpRbTSu4olOwu0Rjuirrdv.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 1328632,
-      "original_language": "zh",
-      "original_title": "流浪地球2：再次冒险",
-      "overview": "",
-      "popularity": 3.482,
-      "poster_path": "/zQP6iW5Ya4MyMRXl0t28ckV1spp.jpg",
-      "release_date": "2024-09-15",
-      "title": "Inside the Wandering Earth Ⅱ",
-      "video": false,
-      "vote_average": 10,
-      "vote_count": 1
     },
     {
       "adult": false,
@@ -86,7 +86,7 @@
       "id": 1381967,
       "original_language": "zh",
       "original_title": "流浪地球：飞跃2020特别版",
-      "overview": "",
+      "overview": "太阳即将毁灭，人类在地球表面建造出巨大的推进器，寻找新家园。然而宇宙之路危机四伏，为了拯救地球，为了人类能在漫长的2500年后抵达新家园，流浪地球时代的年轻人挺身而出，展开争分夺秒的生死之战",
       "popularity": 2.06,
       "poster_path": "/jopx52YdyDJM4zcO19Vazk8pX5X.jpg",
       "release_date": "2020-11-26",

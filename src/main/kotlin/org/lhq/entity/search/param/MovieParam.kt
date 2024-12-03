@@ -7,4 +7,12 @@ data class MovieParam(
     val page: Int?,
     val region: String?,
     val year: String?,
-)
+) {
+    constructor(query: String) : this(
+        query,
+        null,
+        null,
+        null,
+        null,
+        null)
+}
