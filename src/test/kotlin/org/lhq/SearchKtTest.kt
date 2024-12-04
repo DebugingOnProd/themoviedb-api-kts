@@ -4,10 +4,7 @@ import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DisplayName
 import org.lhq.api.TmdbApi
 import org.lhq.entity.TmdbConfig
-import org.lhq.entity.search.CollectionResult
-import org.lhq.entity.search.CompanyResult
-import org.lhq.entity.search.KeywordResult
-import org.lhq.entity.search.MovieResult
+import org.lhq.entity.search.*
 import org.lhq.entity.search.param.MovieParam
 import org.lhq.utlis.ReadFile
 import org.slf4j.LoggerFactory
@@ -65,6 +62,16 @@ class SearchKtTest {
         val searchResult = searchApi.searchMovie(param)
         logger.info("searchMovieResult:{}",searchResult)
         val expectedResult = readFile.readEntity<MovieResult>("api_test_result/search/movie.json")
+        assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
+    }
+
+    @Test
+    @DisplayName("Search_Multi_Test")
+    fun testSearchMulti() {
+        val searchApi = TmdbApi.getInstanceApi().getSearchApi()
+        val searchResult = searchApi.searchMulti("流浪地球",true, 1)
+        logger.info("searchMultiResult:{}",searchResult)
+        val expectedResult = readFile.readEntity<MultiResult>("api_test_result/search/multi.json")
         assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
     }
 }
