@@ -1,9 +1,6 @@
 package org.lhq.api
 
-import org.lhq.entity.search.CollectionResult
-import org.lhq.entity.search.CompanyResult
-import org.lhq.entity.search.KeywordResult
-import org.lhq.entity.search.MovieResult
+import org.lhq.entity.search.*
 import org.lhq.entity.search.param.MovieParam
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
@@ -70,5 +67,16 @@ class SearchApi(private val httpClient: HttpClient) {
         val rep = httpClient.request(param, RequestType.GET, true)
         val result = GsonUtils.fromJson<MovieResult>(rep)
         return result;
+    }
+
+
+    fun searchMulti(query: String,includeAdult : Boolean?, page: Int?) : MultiResult?{
+        val url = "search/multi"
+        val param = UrlBuilder(url).addParam("query", query)
+        includeAdult?.let { param.addParam("include_adult", it.toString()) }
+        page?.let { param.addParam("page", it.toString()) }
+        val result = httpClient.request(param, RequestType.GET,true)
+        val movieResult = GsonUtils.fromJson<MultiResult>(result)
+        return movieResult
     }
 }
