@@ -79,4 +79,16 @@ class SearchApi(private val httpClient: HttpClient) {
         val movieResult = GsonUtils.fromJson<MultiResult>(result)
         return movieResult
     }
+
+
+    fun searchPerson(query: String,includeAdult : Boolean?, page: Int?) : PersonResult?{
+        val url = "search/person"
+        val param = UrlBuilder(url)
+        param.addParam("query", query)
+        includeAdult?.let { param.addParam("include_adult", it.toString()) }
+        page?.let { param.addParam("page", it.toString()) }
+        val result = httpClient.request(param, RequestType.GET,true)
+        val personResult = GsonUtils.fromJson<PersonResult>(result)
+        return personResult
+    }
 }

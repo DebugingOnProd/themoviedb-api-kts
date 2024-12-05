@@ -74,4 +74,15 @@ class SearchKtTest {
         val expectedResult = readFile.readEntity<MultiResult>("api_test_result/search/multi.json")
         assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
     }
+
+
+    @Test
+    @DisplayName("Search_Person_Test")
+    fun testSearchPerson() {
+        val searchApi = TmdbApi.getInstanceApi().getSearchApi()
+        val searchResult = searchApi.searchPerson("姜文",true, 1)
+        logger.info("searchPersonResult:{}",searchResult)
+        val expectedResult = readFile.readEntity<PersonResult>("api_test_result/search/person.json")
+        assertEquals(expectedResult,searchResult,"预期的搜索结果和实际结果不一致")
+    }
 }
