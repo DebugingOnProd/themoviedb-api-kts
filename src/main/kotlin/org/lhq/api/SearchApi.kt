@@ -91,4 +91,20 @@ class SearchApi(private val httpClient: HttpClient) {
         val personResult = GsonUtils.fromJson<PersonResult>(result)
         return personResult
     }
+
+    fun searchTv(query: String,
+                 includeAdult : Boolean?,
+                 page: Int?,
+                 firstAirDateYear: Int?,
+                 year:Int?) : TvResult? {
+        val url = "search/tv"
+        val param = UrlBuilder(url).addParam("query", query)
+        includeAdult?.let { param.addParam("include_adult", it.toString()) }
+        page?.let { param.addParam("page", it.toString()) }
+        firstAirDateYear?.let { param.addParam("first_air_date_year", it.toString()) }
+        year?.let { param.addParam("year", it.toString()) }
+        val result = httpClient.request(param, RequestType.GET,true)
+        val tvResult = GsonUtils.fromJson<TvResult>(result)
+        return tvResult
+    }
 }
