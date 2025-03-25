@@ -3,6 +3,7 @@ package org.lhq.api
 import org.lhq.entity.search.TrendingResult
 import org.lhq.entity.trending.TrendingMovie
 import org.lhq.entity.trending.TrendingPerson
+import org.lhq.entity.trending.TrendingTv
 import org.lhq.http.HttpClient
 import org.lhq.http.RequestType
 import org.lhq.http.UrlBuilder
@@ -28,6 +29,13 @@ class TrendingApi(private val httpClient: HttpClient) {
         val urlBuilder = UrlBuilder(url)
         val response = httpClient.request(urlBuilder, RequestType.GET,true)
         return GsonUtils.fromJson<TrendingPerson>(response)
+    }
+
+    fun getTrendingTv(timeWindow: String): TrendingTv? {
+        val url = "trending/tv/$timeWindow"
+        val urlBuilder = UrlBuilder(url)
+        val response = httpClient.request(urlBuilder, RequestType.GET,true)
+        return GsonUtils.fromJson<TrendingTv>(response)
     }
 
 }

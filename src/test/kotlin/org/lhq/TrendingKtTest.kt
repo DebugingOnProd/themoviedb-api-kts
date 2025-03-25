@@ -42,6 +42,13 @@ class TrendingKtTest {
         val trendingApi = TmdbApi.getInstanceApi().getTrendingApi()
         val trendingResult = trendingApi.getTrendingPerson("day")
         logger.info("trendingPersonResult:{}",trendingResult)
+    }
 
+    @Test
+    @DisplayName("trending_tv_test")
+    fun testTrendingTv() {
+        val trendingApi = TmdbApi.getInstanceApi().getTrendingApi()
+        val trendingResult = trendingApi.getTrendingTv("day")
+        logger.info("trendingTvResult:{}",trendingResult)
     }
 }
