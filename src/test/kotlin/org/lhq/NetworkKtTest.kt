@@ -27,7 +27,7 @@ class NetworkKtTest {
     @Test
     @DisplayName("getNetworkDetails")
     fun testGetNetworkDetails(){
-        val networkDetails = TmdbApi.getInstanceApi().getNetworkApi().getNetworkDetails(11)
+        val networkDetails = TmdbApi.getApiInstance().getNetworkApi().getNetworkDetails(11)
         logger.info("networkDetails:{}",networkDetails)
         val expectedNetworkDetails = readFile.readEntity<NetworkDetails>("api_test_result/network/details.json")
         assertEquals(expectedNetworkDetails, networkDetails,"实际网站结果与预期结果不一致")
@@ -36,7 +36,7 @@ class NetworkKtTest {
     @Test
     @DisplayName("getNetworkAlternativeNames")
     fun testGetNetworkAlternativeNames(){
-        val alternativeName = TmdbApi.getInstanceApi().getNetworkApi().getNetworkAlternativeNames(11)
+        val alternativeName = TmdbApi.getApiInstance().getNetworkApi().getNetworkAlternativeNames(11)
         logger.info("alternativeName:{}",alternativeName)
         val expectedAlternativeName = readFile.readEntity<AlternativeName>("api_test_result/network/alternativeName.json")
         assertEquals(expectedAlternativeName, alternativeName,"实际网站结果与预期结果不一致")
@@ -45,7 +45,7 @@ class NetworkKtTest {
     @Test
     @DisplayName("getTvNetworkImages")
     fun testGetTvNetworkImages(){
-        val tvNetworkImages = TmdbApi.getInstanceApi().getNetworkApi().getTvNetworkImages(11)
+        val tvNetworkImages = TmdbApi.getApiInstance().getNetworkApi().getTvNetworkImages(11)
         logger.info("tvNetworkImages:{}",tvNetworkImages)
         val expectedTvNetworkImages = readFile.readEntity<NetworkImage>("api_test_result/network/images.json")
         assertEquals(expectedTvNetworkImages, tvNetworkImages,"实际图片结果与预期结果不一致")

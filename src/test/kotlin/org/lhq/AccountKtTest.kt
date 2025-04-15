@@ -31,7 +31,7 @@ class AccountKtTest {
     @DisplayName("get_account_details")
     fun getAccountDetailsTest() {
         System.setProperty("java.net.useSystemProxies", "true");
-        val accountApi = TmdbApi.getInstanceApi().getAccountApi()
+        val accountApi = TmdbApi.getApiInstance().getAccountApi()
         val actualDetails = accountApi.getDetails(20874374)
         logger.info("actualDetails:{}",actualDetails)
         val expectedDetails = ReadFile().readEntity<AccountDetails>("api_test_result/account/details.json")
@@ -47,7 +47,7 @@ class AccountKtTest {
     @Test
     @DisplayName("get_favorite_movies")
     fun getFavoriteMoviesTest(){
-        val favoriteMovies = TmdbApi.getInstanceApi().getAccountApi()
+        val favoriteMovies = TmdbApi.getApiInstance().getAccountApi()
             .getFavoriteMovies(
                 20874374,
                 1,
@@ -62,7 +62,7 @@ class AccountKtTest {
     @DisplayName("get_favorite_tv")
     fun getFavoriteTvTest(){
         AccountSortBy.CREATED_AT_ASC
-        val favoriteTv = TmdbApi.getInstanceApi().getAccountApi()
+        val favoriteTv = TmdbApi.getApiInstance().getAccountApi()
             .getFavoriteTv(
                 20874374,
                 1,
@@ -77,7 +77,7 @@ class AccountKtTest {
     @Test
     @DisplayName("get_recommendations")
     fun getRecommendationsTest(){
-        val recommendations = TmdbApi.getInstanceApi().getMovieApi().getRecommendations(11,1)
+        val recommendations = TmdbApi.getApiInstance().getMovieApi().getRecommendations(11,1)
         val expectedRecommendations  = readFile.readEntity<RecommendationResult>("api_test_result/movie/recommendations.json")
         logger.info("recommendations:{}",recommendations)
         assertEquals(expectedRecommendations,recommendations,"TmdbApi.getRecommendations 请求结果与预期不一致")

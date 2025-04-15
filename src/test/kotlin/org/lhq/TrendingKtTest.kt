@@ -23,7 +23,7 @@ class TrendingKtTest {
     @Test
     @DisplayName("trending_all_test")
     fun testTrendingAll() {
-        val trendingApi = TmdbApi.getInstanceApi().getTrendingApi()
+        val trendingApi = TmdbApi.getApiInstance().getTrendingApi()
         val trendingResult = trendingApi.getTrending("day")
         logger.info("trendingResult:{}",trendingResult)
     }
@@ -31,7 +31,7 @@ class TrendingKtTest {
     @Test
     @DisplayName("trending_movie_test")
     fun testTrendingMovie() {
-        val trendingApi = TmdbApi.getInstanceApi().getTrendingApi()
+        val trendingApi = TmdbApi.getApiInstance().getTrendingApi()
         val trendingResult = trendingApi.getTrendingMovie("day")
         logger.info("trendingMovieResult:{}",trendingResult)
     }
@@ -39,7 +39,7 @@ class TrendingKtTest {
     @Test
     @DisplayName("trending_person_test")
     fun testTrendingPerson() {
-        val trendingApi = TmdbApi.getInstanceApi().getTrendingApi()
+        val trendingApi = TmdbApi.getApiInstance().getTrendingApi()
         val trendingResult = trendingApi.getTrendingPerson("day")
         logger.info("trendingPersonResult:{}",trendingResult)
     }
@@ -47,7 +47,7 @@ class TrendingKtTest {
     @Test
     @DisplayName("trending_tv_test")
     fun testTrendingTv() {
-        val trendingApi = TmdbApi.getInstanceApi().getTrendingApi()
+        val trendingApi = TmdbApi.getApiInstance().getTrendingApi()
         val trendingResult = trendingApi.getTrendingTv("day")
         logger.info("trendingTvResult:{}",trendingResult)
     }

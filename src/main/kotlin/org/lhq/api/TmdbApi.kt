@@ -13,6 +13,7 @@ class TmdbApi private constructor( private val tmdbConfig: TmdbConfig) {
             NetworkApi::class.java -> NetworkApi(httpClient) as T
             SearchApi::class.java -> SearchApi(httpClient) as T
             TrendingApi::class.java -> TrendingApi(httpClient) as T
+            PersonApi::class.java -> PersonApi(httpClient) as T
             else -> throw IllegalArgumentException("Unsupported API class: $apiClass")
         }
     }
@@ -22,6 +23,7 @@ class TmdbApi private constructor( private val tmdbConfig: TmdbConfig) {
     fun getNetworkApi() = createApi(NetworkApi::class.java)
     fun getSearchApi() = createApi(SearchApi::class.java)
     fun getTrendingApi() = createApi(TrendingApi::class.java)
+    fun getPersonApi() = createApi(PersonApi::class.java)
 
 
 
@@ -33,7 +35,7 @@ class TmdbApi private constructor( private val tmdbConfig: TmdbConfig) {
         fun initialize(config: TmdbConfig) {
             tmdbConfig = config
         }
-        fun getInstanceApi(): TmdbApi {
+        fun getApiInstance(): TmdbApi {
             return instance
         }
     }
